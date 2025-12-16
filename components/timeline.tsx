@@ -166,15 +166,13 @@ const timelineData = [
       ideologicalFoundation: {
         hoChiMinhThought: [
           "Lần đầu xác định rõ nội dung cơ bản của Tư tưởng Hồ Chí Minh.",
-          "Là sự vận dụng và phát triển sáng tạo Chủ nghĩa Mác – Lênin vào điều kiện Việt Nam.",
-        ],
-        socialismTransition: [
-          "Kiên định con đường XHCN, bỏ qua chế độ TBCN nhưng tiếp thu thành tựu KH-CN.",
-          "Động lực chủ yếu là đại đoàn kết toàn dân, nòng cốt là liên minh công – nông – trí thức.",
+          "Là sự vận dụng và phát triển sáng tạo chủ nghĩa Mác – Lênin vào điều kiện Việt Nam.",
+          "Khẳng định chủ nghĩa Mác – Lênin và Tư tưởng Hồ Chí Minh là nền tảng tư tưởng, kim chỉ nam cho hành động của Đảng."
         ],
         economicModel: [
           "Mô hình: Kinh tế thị trường định hướng xã hội chủ nghĩa.",
           "Nền kinh tế nhiều thành phần, vận hành theo cơ chế thị trường có sự quản lý của Nhà nước.",
+          "Gắn với con đường quá độ lên Chủ nghĩa Xã hội (CNXH), bỏ qua chế độ tư bản chủ nghĩa (TBCN) nhưng tiếp thu thành tựu khoa học – công nghệ."
         ],
       },
       "economicOrientation": {
@@ -243,7 +241,7 @@ const timelineData = [
     color: "bg-rose-500",
     borderColor: "border-rose-500",
     textColor: "text-rose-600",
-    icon: "Globe", // Giữ nguyên, giả định đây là một biến/biểu tượng
+    icon: Globe, 
     summary: "Đẩy mạnh toàn diện công cuộc đổi mới, chú trọng xây dựng Đảng, hội nhập kinh tế quốc tế và gia nhập WTO (2007).",
     image: './back10.webp',
     content: {
@@ -297,7 +295,7 @@ const timelineData = [
     color: "bg-slate-700",
     borderColor: "border-slate-700",
     textColor: "text-slate-700",
-    icon: "Building2", // Giữ nguyên, giả định đây là một biến/biểu tượng
+    icon: Building2, 
     summary: "Đề ra Cương lĩnh 2011 và Chiến lược 2011-2020. Mục tiêu: Cơ bản trở thành nước công nghiệp theo hướng hiện đại vào năm 2020.",
     image: './back11.webp',
     content: {
@@ -348,7 +346,7 @@ const timelineData = [
     color: "bg-orange-500",
     borderColor: "border-orange-500",
     textColor: "text-orange-600",
-    icon: "FileText",
+    icon: FileText,
     summary: "Đẩy mạnh toàn diện, đồng bộ công cuộc đổi mới; tập trung chỉnh đốn Đảng, hoàn thiện thể chế và ứng phó với đại dịch Covid-19.",
     image: './back12.webp',
     content: {
@@ -402,7 +400,7 @@ const timelineData = [
     color: "bg-emerald-500",
     borderColor: "border-emerald-500",
     textColor: "text-emerald-600",
-    icon: "Rocket",
+    icon: Rocket,
     summary: "Xác định tầm nhìn chiến lược đến năm 2030 (thu nhập trung bình cao) và 2045 (nước phát triển, thu nhập cao); thúc đẩy chuyển đổi số và phát triển bền vững.",
     image: './back13.webp',
     content: {
