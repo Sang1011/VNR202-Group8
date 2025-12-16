@@ -7,6 +7,7 @@ import { calculateScore } from "@/utils/calculateScore";
 import { applyCardEffect } from "@/utils/applyCardEffect";
 import { getPlayerScore, onLeaderboardUpdate, onPlayerScoreUpdate, stealScore, swapScore, updateScore } from "@/utils/firebase";
 import { randomCards } from "@/utils/randomCards";
+import { QUESTIONS_DATA } from "@/data/question";
 
 type Phase = "question" | "card" | "popup" | "selectPlayer";
 
@@ -22,39 +23,6 @@ interface Player {
   score: number;
 }
 
-const QUESTIONS: Question[] = [
-  {
-    question: "Đại hội IX của Đảng xác định mô hình kinh tế tổng quát là gì?",
-    options: [
-      "Kinh tế kế hoạch hóa tập trung",
-      "Kinh tế thị trường định hướng XHCN",
-      "Kinh tế thị trường hiện đại",
-      "Kinh tế nhiều thành phần",
-    ],
-    answer: "Kinh tế thị trường định hướng XHCN",
-  },
-  {
-    question: "Đại hội VIII xác định chiến lược nào?",
-    options: [
-      "Công nghiệp hóa – hiện đại hóa",
-      "Phát triển nông nghiệp",
-      "Mở cửa hội nhập",
-      "Kinh tế tri thức",
-    ],
-    answer: "Công nghiệp hóa – hiện đại hóa",
-  },
-  {
-    question: "Đại hội VII xác định chiến lược nào?",
-    options: [
-      "Công nghiệp hóa – hiện đại hóa",
-      "Phát triển nông nghiệp",
-      "Mở cửa hội nhập",
-      "Kinh tế tri thức",
-    ],
-    answer: "Phát triển nông nghiệp",
-  },
-];
-
 function shuffle<T>(arr: T[]): T[] {
   const newArr = [...arr];
   for (let i = newArr.length - 1; i > 0; i--) {
@@ -68,7 +36,7 @@ export default function GamePlay({roomCode, playerId}: {roomCode: string; player
   const [phase, setPhase] = useState<Phase>("question");
   const [score, setScore] = useState(0);
 
-  const [questions, setQuestions] = useState<Question[]>(shuffle(QUESTIONS));
+  const [questions, setQuestions] = useState<Question[]>(shuffle(QUESTIONS_DATA));
   const [currentIdx, setCurrentIdx] = useState(0);
 
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
@@ -86,7 +54,7 @@ export default function GamePlay({roomCode, playerId}: {roomCode: string; player
   const [pendingStealCard, setPendingStealCard] = useState<CardType | null>(null);
   const [allPlayers, setAllPlayers] = useState<Player[]>([]);
   useEffect(() => {
-    setCurrentSet(shuffle(QUESTIONS));
+    setCurrentSet(shuffle(QUESTIONS_DATA));
   }, []);
   // Timer
   useEffect(() => {
@@ -258,7 +226,7 @@ export default function GamePlay({roomCode, playerId}: {roomCode: string; player
     } else {
       // Hết set -> tạo set mới và reset index
       console.log("Hết set câu hỏi, tạo set mới...");
-      setCurrentSet(shuffle(QUESTIONS));
+      setCurrentSet(shuffle(QUESTIONS_DATA));
       setCurrentIdx(0);
     }
   };
