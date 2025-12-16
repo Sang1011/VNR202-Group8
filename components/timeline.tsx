@@ -175,7 +175,7 @@ const timelineData = [
           "Gắn với con đường quá độ lên Chủ nghĩa Xã hội (CNXH), bỏ qua chế độ tư bản chủ nghĩa (TBCN) nhưng tiếp thu thành tựu khoa học – công nghệ."
         ],
       },
-      "economicOrientation": {
+      economicOrientation: {
         "title": "Định hướng phát triển toàn diện",
         "content": [
           "Kiên trì, lâu dài phát triển kinh tế thị trường định hướng XHCN.",
@@ -183,19 +183,19 @@ const timelineData = [
           "Phân phối chủ yếu theo lao động và hiệu quả, đồng thời theo đóng góp vốn/nguồn lực và phúc lợi xã hội."
         ]
       },
-      "socialAndCulturalDevelopment": {
+      socialAndCulturalDevelopment: {
         // 1. Văn hóa & Con người (từ Định hướng phát triển toàn diện)
-        "cultureAndPeople": [
+        cultureAndPeople: [
           "Xây dựng nền văn hóa Việt Nam tiên tiến, đậm đà bản sắc dân tộc; phát triển con người Việt Nam toàn diện (trí tuệ, đạo đức, sáng tạo).",
           "Văn hóa được xác định là nền tảng tinh thần, mục tiêu và động lực của phát triển, gắn với kinh tế thị trường định hướng XHCN."
         ],
         // 2. Xã hội – Giai cấp & Đoàn kết (từ Định hướng phát triển toàn diện & nationalUnity cũ)
-        "nationalUnity": [
+        nationalUnity: [
           "Đại đoàn kết toàn dân là động lực chủ yếu, mục tiêu: dân giàu, nước mạnh, xã hội công bằng, dân chủ, văn minh.",
           "Quan hệ Xã hội – Giai cấp: đoàn kết, hợp tác trong nhân dân. Nội dung trọng tâm của 'đấu tranh' là thực hiện CNH–HĐH, công bằng xã hội, chống tiêu cực, làm thất bại âm mưu chống phá."
         ],
         // 3. Công tác Dân tộc, Tôn giáo, NVNONN (Giữ nguyên các NQ đặc thù)
-        "specificGroups": [
+        specificGroups: [
           "Dân tộc: Chiến lược lâu dài, các dân tộc bình đẳng, đoàn kết, cùng phát triển (NQ 24-NQ/TW).",
           "Tôn giáo: Tôn trọng quyền tự do tín ngưỡng, nghiêm cấm lợi dụng tôn giáo (NQ 25-NQ/TW).",
           "Người Việt Nam ở nước ngoài: Là bộ phận không tách rời, nguồn lực quan trọng (NQ 36-NQ/TW)."
@@ -282,9 +282,9 @@ const timelineData = [
       ],
       // Sự kiện nổi bật
       events: [
-        "**Gia nhập WTO (2006)**.",
-        "**Hội nghị Trung ương 5 khóa X (7/2007)** ban hành Nghị quyết về công tác tư tưởng, lý luận và báo chí.",
-        "**Giai đoạn 2006–2010** mở rộng quan hệ đối ngoại, giữ vững ổn định chính trị."
+        "Gia nhập WTO (2006).",
+        "Hội nghị Trung ương 5 khóa X (7/2007) ban hành Nghị quyết về công tác tư tưởng, lý luận và báo chí.",
+        "Giai đoạn 2006–2010 mở rộng quan hệ đối ngoại, giữ vững ổn định chính trị."
       ],
     },
   },
@@ -333,8 +333,8 @@ const timelineData = [
       ],
       // Sự kiện/Kết quả nổi bật
       events: [
-        "Đại hội **đề ra Cương lĩnh 2011 và Chiến lược phát triển kinh tế – xã hội 2011–2020**.",
-        "Việt Nam **ra khỏi tình trạng kém phát triển**, vượt ngưỡng nước thu nhập thấp.",
+        "Đại hội đề ra Cương lĩnh 2011 và Chiến lược phát triển kinh tế – xã hội 2011–2020.",
+        "Việt Nam ra khỏi tình trạng kém phát triển, vượt ngưỡng nước thu nhập thấp.",
         "Kinh tế vĩ mô cơ bản ổn định, duy trì tốc độ tăng trưởng khá."
       ],
     },
@@ -386,10 +386,10 @@ const timelineData = [
       ],
       // Sự kiện nổi bật & tác động
       events: [
-        "**10/2016 – NQ 04-NQ/TW (TW4):** Siết kỷ luật, chống suy thoái, 'tự diễn biến, tự chuyển hóa'.",
-        "**2016–2018:** Việt Nam tham gia các FTA thế hệ mới (CPTPP, EVFTA).",
-        "**10/2018 – NQ 36:** Phát triển kinh tế biển gắn chủ quyền.",
-        "**2020:** Đại dịch Covid-19 bùng phát, Việt Nam ứng phó thành công."
+        "10/2016 – NQ 04-NQ/TW (TW4): Siết kỷ luật, chống suy thoái, 'tự diễn biến, tự chuyển hóa'.",
+        "2016–2018: Việt Nam tham gia các FTA thế hệ mới (CPTPP, EVFTA).",
+        "10/2018 – NQ 36: Phát triển kinh tế biển gắn chủ quyền.",
+        "2020: Đại dịch Covid-19 bùng phát, Việt Nam ứng phó thành công."
       ],
     },
   },
@@ -438,7 +438,7 @@ const timelineData = [
       ],
       // Sự kiện nổi bật & tác động
       events: [
-        "**2021-2022:** Tập trung kiểm soát dịch và phục hồi kinh tế hậu Covid-19.",
+        "2021-2022: Tập trung kiểm soát dịch và phục hồi kinh tế hậu Covid-19.",
         "Tiếp tục hội nhập quốc tế sâu rộng, tăng cạnh tranh và đòi hỏi năng lực nội sinh mạnh hơn.",
         "Đẩy mạnh cuộc chiến chống tham nhũng, tiêu cực, củng cố niềm tin."
       ],
@@ -706,13 +706,7 @@ export function Timeline() {
                       ) : (
                         <h3 className="text-xl font-bold text-amber-600 border-b pb-2">Nghị quyết và Chủ trương sau Đại hội IX</h3>
                       )}
-                      <p className="text-sm italic text-muted-foreground">
-                        Chủ đề: **{selectedItem.contentNext.mainTheme}**
-                      </p>
 
-                      {/* ==================================================================== */}
-                      {/* LOGIC DÀNH CHO ĐẠI HỘI IX                     */}
-                      {/* ==================================================================== */}
 
                       {/* 1. Nền tảng Tư tưởng & Mô hình Kinh tế (Chỉ có trong ĐH IX) */}
                       {selectedItem.contentNext.ideologicalFoundation && (
