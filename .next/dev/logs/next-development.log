@@ -1,0 +1,1509 @@
+[00:00:06.076] Server  LOG      ✓ Ready in 4.1s
+[00:05:14.367] Server  LOG      ○ Compiling / ...
+[00:05:27.841] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:28.481] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <__next_viewport_boundary__>
+                    <Next.Metadata>
+                      <div
+                        hidden={true}
+-                       bis_skin_checked="1"
+                      >
+                    ...
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="vi" className="source_san...">
+                          <body
+                            className="font-sans antialiased"
+-                           __processed_42fe798c-1baa-4f22-b9f8-80a3b5805292__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+-                           cz-shortcut-listen="true"
+                          >
+                            ...
+                              <SegmentViewNode type="page" pagePath="page.tsx">
+                                <SegmentTrieNode>
+                                <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                                  <Page params={Promise} searchParams={Promise}>
+                                    <div
+                                      className="min-h-screen bg-background"
+-                                     bis_skin_checked="1"
+                                    >
+                                      <Header activeTab="home" setActiveTab={function bound dispatchSetState}>
+                                        <header className="sticky top...">
+                                          <div
+                                            className="container mx-auto flex h-16 items-center justify-between px-4"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="flex items-center gap-2"
+-                                             bis_skin_checked="1"
+                                            >
+                                            ...
+                                      <main className="container ...">
+                                        <Home>
+                                          <div
+                                            className="space-y-12"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <section>
+                                            <section className="mx-auto ma...">
+                                              <Timeline>
+                                                <div
+                                                  className="relative mx-auto max-w-7xl px-4"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="mb-8 flex justify-center"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                    <div
+                                                      className="rounded-lg border-2 border-primary bg-background px-6..."
+-                                                     bis_skin_checked="1"
+                                                    >
++                                                     BẮT ĐẦU
+                                                  <div
+                                                    className="absolute left-1/2 top-20 bottom-20 w-1 -translate-x-1/2..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="relative space-y-12"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                    <div
+                                                      className="relative"
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                      <div
+                                                        className="absolute left-1/2 top-0 z-10 -translate-x-1/2"
+-                                                       bis_skin_checked="1"
+                                                      >
+                                                        <div
+                                                          className="flex h-12 w-12 items-center justify-center rounde..."
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                      <div
+                                                        className="relative w-[calc(50%-3rem)] mr-auto pr-4"
+-                                                       bis_skin_checked="1"
+                                                      >
+                                                        <div
+                                                          className="absolute top-6 h-0.5 w-8 border-t-2 border-dashed..."
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                        <div
+                                                          className="cursor-pointer rounded-xl border bg-card p-5 shad..."
+                                                          onClick={function onClick}
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                          <div
+                                                            className="mb-3 inline-block rounded-full px-4 py-1 text-s..."
+-                                                           bis_skin_checked="1"
+                                                          >
++                                                           1996 - 2000
+                                                          <div
+-                                                           bis_skin_checked="1"
+                                                          >
+                                                          ...
+                                                    <div
+                                                      className="relative"
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                      <div
+                                                        className="absolute left-1/2 top-0 z-10 -translate-x-1/2"
+-                                                       bis_skin_checked="1"
+                                                      >
+                                                        <div
+                                                          className="flex h-12 w-12 items-center justify-center rounde..."
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                      <div
+                                                        className="relative w-[calc(50%-3rem)] ml-auto pl-4"
+-                                                       bis_skin_checked="1"
+                                                      >
+                                                        <div
+                                                          className="absolute top-6 h-0.5 w-8 border-t-2 border-dashed..."
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                        <div
+                                                          className="cursor-pointer rounded-xl border bg-card p-5 shad..."
+                                                          onClick={function onClick}
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                          <div
+                                                            className="mb-3 inline-block rounded-full px-4 py-1 text-s..."
+-                                                           bis_skin_checked="1"
+                                                          >
++                                                           2001 - 2005
+                                                          <div
+-                                                           bis_skin_checked="1"
+                                                          >
+                                                          ...
+                                                    <div
+                                                      className="relative"
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                      <div
+                                                        className="absolute left-1/2 top-0 z-10 -translate-x-1/2"
+-                                                       bis_skin_checked="1"
+                                                      >
+                                                        <div
+                                                          className="flex h-12 w-12 items-center justify-center rounde..."
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                      <div
+                                                        className="relative w-[calc(50%-3rem)] mr-auto pr-4"
+-                                                       bis_skin_checked="1"
+                                                      >
+                                                        <div
+                                                          className="absolute top-6 h-0.5 w-8 border-t-2 border-dashed..."
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                        <div
+                                                          className="cursor-pointer rounded-xl border bg-card p-5 shad..."
+                                                          onClick={function onClick}
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                          <div
+                                                            className="mb-3 inline-block rounded-full px-4 py-1 text-s..."
+-                                                           bis_skin_checked="1"
+                                                          >
++                                                           2006 - 2010
+                                                          <div
+-                                                           bis_skin_checked="1"
+                                                          >
+                                                          ...
+                                                    <div
+                                                      className="relative"
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                      <div
+                                                        className="absolute left-1/2 top-0 z-10 -translate-x-1/2"
+-                                                       bis_skin_checked="1"
+                                                      >
+                                                        <div
+                                                          className="flex h-12 w-12 items-center justify-center rounde..."
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                      <div
+                                                        className="relative w-[calc(50%-3rem)] ml-auto pl-4"
+-                                                       bis_skin_checked="1"
+                                                      >
+                                                        <div
+                                                          className="absolute top-6 h-0.5 w-8 border-t-2 border-dashed..."
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                        <div
+                                                          className="cursor-pointer rounded-xl border bg-card p-5 shad..."
+                                                          onClick={function onClick}
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                          <div
+                                                            className="mb-3 inline-block rounded-full px-4 py-1 text-s..."
+-                                                           bis_skin_checked="1"
+                                                          >
++                                                           2011 - 2015
+                                                          <div
+-                                                           bis_skin_checked="1"
+                                                          >
+                                                          ...
+                                                    <div
+                                                      className="relative"
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                      <div
+                                                        className="absolute left-1/2 top-0 z-10 -translate-x-1/2"
+-                                                       bis_skin_checked="1"
+                                                      >
+                                                        <div
+                                                          className="flex h-12 w-12 items-center justify-center rounde..."
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                      <div
+                                                        className="relative w-[calc(50%-3rem)] mr-auto pr-4"
+-                                                       bis_skin_checked="1"
+                                                      >
+                                                        <div
+                                                          className="absolute top-6 h-0.5 w-8 border-t-2 border-dashed..."
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                        <div
+                                                          className="cursor-pointer rounded-xl border bg-card p-5 shad..."
+                                                          onClick={function onClick}
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                          <div
+                                                            className="mb-3 inline-block rounded-full px-4 py-1 text-s..."
+-                                                           bis_skin_checked="1"
+                                                          >
++                                                           2016 - 2020
+                                                          <div
+-                                                           bis_skin_checked="1"
+                                                          >
+                                                          ...
+                                                    <div
+                                                      className="relative"
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                      <div
+                                                        className="absolute left-1/2 top-0 z-10 -translate-x-1/2"
+-                                                       bis_skin_checked="1"
+                                                      >
+                                                        <div
+                                                          className="flex h-12 w-12 items-center justify-center rounde..."
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                      <div
+                                                        className="relative w-[calc(50%-3rem)] ml-auto pl-4"
+-                                                       bis_skin_checked="1"
+                                                      >
+                                                        <div
+                                                          className="absolute top-6 h-0.5 w-8 border-t-2 border-dashed..."
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                        <div
+                                                          className="cursor-pointer rounded-xl border bg-card p-5 shad..."
+                                                          onClick={function onClick}
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                          <div
+                                                            className="mb-3 inline-block rounded-full px-4 py-1 text-s..."
+-                                                           bis_skin_checked="1"
+                                                          >
++                                                           2021 - Nay
+                                                          <div
+-                                                           bis_skin_checked="1"
+                                                          >
+                                                          ...
+                                                  <div
+                                                    className="mt-8 flex justify-center"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                    <div
+                                                      className="rounded-lg border-2 border-emerald-500 bg-background ..."
+-                                                     bis_skin_checked="1"
+                                                    >
++                                                     HIỆN TẠI
+                            ...
+                  ...
+
+[00:05:28.481] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:05:28.482] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:05:28.482] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765885442637}
+[00:05:52.918] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:53.821] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="vi"
++                         className="source_sans_3_302bc9c0-module__2twD0G__variable source_code_pro_c20c8deb-module__..."
+-                         className="source_sans_3_302bc9c0-module__2twD0G__variable source_code_pro_c20c8deb-module__..."
+-                         style={{--vsc-domain:"\"localhost\""}}
+                        >
+                  ...
+
+[00:05:54.256] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:05:54.256] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:05:54.256] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765885468229}
+[00:17:41.728] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:42.446] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:17:42.446] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:17:42.446] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765886176532}
+[00:22:34.240] Server  LOG      ✓ Compiled in 852ms
+[00:29:56.770] Server  LOG      ✓ Compiled in 637ms
+[00:30:56.650] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'question')
+[00:33:05.916] Server  LOG      ✓ Compiled in 573ms
+[00:33:05.934] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:33:07.451] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765887100303}
+[00:33:15.248] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:18.727] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="vi"
++                         className="source_sans_3_302bc9c0-module__2twD0G__variable source_code_pro_c20c8deb-module__..."
+-                         className="source_sans_3_302bc9c0-module__2twD0G__variable source_code_pro_c20c8deb-module__..."
+-                         style={{--vsc-domain:"\"localhost\""}}
+                        >
+                  ...
+
+[00:33:18.727] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:33:18.727] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:33:18.727] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765887112465}
+[00:33:30.243] Server  LOG      ✓ Compiled in 1117ms
+[00:34:04.695] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ádasd
+[00:34:08.657] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ádasd
+[00:34:09.657] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ádasd
+[00:34:49.261] Server  LOG      ✓ Compiled in 1031ms
+[00:34:50.718] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ádasd
+[00:34:54.649] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ádasd
+[00:34:55.647] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ádasd
+[00:34:57.653] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ádasd
+[00:35:25.094] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:28.650] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:35:28.651] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:35:28.651] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765887242011}
+[00:35:50.653] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ádasd
+[00:35:53.647] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ádasd
+[00:35:54.651] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ádasd
+[00:35:56.658] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ádasd
+[00:36:27.652] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'question')
+[00:36:56.813] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:58.081] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:36:58.081] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:36:58.081] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765887332253}
+[00:37:09.647] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ádasd
+[00:37:11.655] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ádasd
+[00:37:13.647] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ádasd
+[00:37:30.547] Server  LOG      ✓ Compiled in 458ms
+[00:37:37.646] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ádasd
+[00:37:39.652] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ádasd
+[00:38:10.645] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'question')
+[00:38:28.926] Server  LOG      ✓ Compiled in 884ms
+[00:38:28.938] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:38:30.294] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765887423306}
+[00:38:31.545] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:32.211] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:38:32.212] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:38:32.212] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765887426347}
+[00:38:43.656] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ádasd
+[00:38:45.651] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ádasd
+[00:38:51.654] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ádasd
+[00:38:54.652] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ádasd
+[00:39:43.201] Server  LOG      ✓ Compiled in 857ms
+[00:39:44.644] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ádasd
+[00:39:46.645] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ádasd
+[00:39:48.646] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ádasd
+[00:40:40.203] Server  LOG      ✓ Compiled in 296ms
+[00:40:43.660] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ádasd
+[00:40:44.658] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ádasd
+[00:40:45.651] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ádasd
+[00:40:59.653] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ádasd
+[00:41:01.647] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ádasd
+[00:41:03.655] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ádasd
+[00:42:24.768] Server  LOG      ✓ Compiled in 556ms
+[00:42:40.102] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:40.943] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:42:40.943] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:42:40.943] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765887675114}
+[00:43:06.956] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `GamePlay`. 
+[00:43:19.152] Server  LOG      ✓ Compiled in 390ms
+[00:45:27.650] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'question')
+[00:49:46.974] Server  LOG      ✓ Compiled in 459ms
+[00:49:47.648] Browser ERROR   ./components/card-rules-popup.tsx:2:1
+Export default doesn't exist in target module
+  1 | "use client";
+> 2 | import GameCard from "./game-card";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { X } from "lucide-react";
+  4 | import { CARD_POOL } from "@/types/card";
+  5 | import { getCardProbability, getCardRarity } from "@/utils/cardProbability";
+
+The export default was not found in module [project]/components/game-card.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/card-rules-popup.tsx [Client Component Browser]
+    ./components/game.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/card-rules-popup.tsx [Client Component SSR]
+    ./components/game.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:49:47.648] Browser ERROR   ./components/card-rules-popup.tsx:2:1
+Export default doesn't exist in target module
+  1 | "use client";
+> 2 | import GameCard from "./game-card";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { X } from "lucide-react";
+  4 | import { CARD_POOL } from "@/types/card";
+  5 | import { getCardProbability, getCardRarity } from "@/utils/cardProbability";
+
+The export default was not found in module [project]/components/game-card.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/card-rules-popup.tsx [Client Component Browser]
+    ./components/game.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/card-rules-popup.tsx [Client Component SSR]
+    ./components/game.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:49:47.648] Browser ERROR   ./components/game-play.tsx:4:1
+Export default doesn't exist in target module
+  2 |
+  3 | import { useState, useEffect } from "react";
+> 4 | import GameCard from "./game-card";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { CardType } from "@/types/card";
+  6 | import { calculateScore } from "@/utils/calculateScore";
+  7 | import { applyCardEffect } from "@/utils/applyCardEffect";
+
+The export default was not found in module [project]/components/game-card.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/game-play.tsx [Client Component Browser]
+    ./components/game.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/game-play.tsx [Client Component SSR]
+    ./components/game.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:49:47.648] Browser ERROR   ./components/game-play.tsx:4:1
+Export default doesn't exist in target module
+  2 |
+  3 | import { useState, useEffect } from "react";
+> 4 | import GameCard from "./game-card";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { CardType } from "@/types/card";
+  6 | import { calculateScore } from "@/utils/calculateScore";
+  7 | import { applyCardEffect } from "@/utils/applyCardEffect";
+
+The export default was not found in module [project]/components/game-card.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/game-play.tsx [Client Component Browser]
+    ./components/game.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/game-play.tsx [Client Component SSR]
+    ./components/game.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:49:47.648] Browser ERROR   ./components/card-rules-popup.tsx:2:1
+Export default doesn't exist in target module
+  1 | "use client";
+> 2 | import GameCard from "./game-card";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { X } from "lucide-react";
+  4 | import { CARD_POOL } from "@/types/card";
+  5 | import { getCardProbability, getCardRarity } from "@/utils/cardProbability";
+
+The export default was not found in module [project]/components/game-card.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/card-rules-popup.tsx [Client Component Browser]
+    ./components/game.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/card-rules-popup.tsx [Client Component SSR]
+    ./components/game.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:49:47.648] Browser ERROR   ./components/card-rules-popup.tsx:2:1
+Export default doesn't exist in target module
+  1 | "use client";
+> 2 | import GameCard from "./game-card";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { X } from "lucide-react";
+  4 | import { CARD_POOL } from "@/types/card";
+  5 | import { getCardProbability, getCardRarity } from "@/utils/cardProbability";
+
+The export default was not found in module [project]/components/game-card.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/card-rules-popup.tsx [Client Component Browser]
+    ./components/game.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/card-rules-popup.tsx [Client Component SSR]
+    ./components/game.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:49:47.648] Browser ERROR   ./components/game-play.tsx:4:1
+Export default doesn't exist in target module
+  2 |
+  3 | import { useState, useEffect } from "react";
+> 4 | import GameCard from "./game-card";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { CardType } from "@/types/card";
+  6 | import { calculateScore } from "@/utils/calculateScore";
+  7 | import { applyCardEffect } from "@/utils/applyCardEffect";
+
+The export default was not found in module [project]/components/game-card.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/game-play.tsx [Client Component Browser]
+    ./components/game.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/game-play.tsx [Client Component SSR]
+    ./components/game.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:49:47.648] Browser ERROR   ./components/game-play.tsx:4:1
+Export default doesn't exist in target module
+  2 |
+  3 | import { useState, useEffect } from "react";
+> 4 | import GameCard from "./game-card";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { CardType } from "@/types/card";
+  6 | import { calculateScore } from "@/utils/calculateScore";
+  7 | import { applyCardEffect } from "@/utils/applyCardEffect";
+
+The export default was not found in module [project]/components/game-card.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/game-play.tsx [Client Component Browser]
+    ./components/game.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/game-play.tsx [Client Component SSR]
+    ./components/game.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:50:00.011] Server  LOG      ✓ Compiled in 326ms
+[00:50:00.667] Browser ERROR   ./components/card-rules-popup.tsx:2:1
+Export default doesn't exist in target module
+  1 | "use client";
+> 2 | import GameCard from "./game-card";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { X } from "lucide-react";
+  4 | import { CARD_POOL } from "@/types/card";
+  5 | import { getCardProbability, getCardRarity } from "@/utils/cardProbability";
+
+The export default was not found in module [project]/components/game-card.tsx [app-client] (ecmascript).
+Did you mean to import GameCard?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/card-rules-popup.tsx [Client Component Browser]
+    ./components/game.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/card-rules-popup.tsx [Client Component SSR]
+    ./components/game.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:50:00.668] Browser ERROR   ./components/card-rules-popup.tsx:2:1
+Export default doesn't exist in target module
+  1 | "use client";
+> 2 | import GameCard from "./game-card";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { X } from "lucide-react";
+  4 | import { CARD_POOL } from "@/types/card";
+  5 | import { getCardProbability, getCardRarity } from "@/utils/cardProbability";
+
+The export default was not found in module [project]/components/game-card.tsx [app-ssr] (ecmascript).
+Did you mean to import GameCard?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/card-rules-popup.tsx [Client Component Browser]
+    ./components/game.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/card-rules-popup.tsx [Client Component SSR]
+    ./components/game.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:50:00.668] Browser ERROR   ./components/game-play.tsx:4:1
+Export default doesn't exist in target module
+  2 |
+  3 | import { useState, useEffect } from "react";
+> 4 | import GameCard from "./game-card";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { CardType } from "@/types/card";
+  6 | import { calculateScore } from "@/utils/calculateScore";
+  7 | import { applyCardEffect } from "@/utils/applyCardEffect";
+
+The export default was not found in module [project]/components/game-card.tsx [app-client] (ecmascript).
+Did you mean to import GameCard?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/game-play.tsx [Client Component Browser]
+    ./components/game.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/game-play.tsx [Client Component SSR]
+    ./components/game.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:50:00.668] Browser ERROR   ./components/game-play.tsx:4:1
+Export default doesn't exist in target module
+  2 |
+  3 | import { useState, useEffect } from "react";
+> 4 | import GameCard from "./game-card";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { CardType } from "@/types/card";
+  6 | import { calculateScore } from "@/utils/calculateScore";
+  7 | import { applyCardEffect } from "@/utils/applyCardEffect";
+
+The export default was not found in module [project]/components/game-card.tsx [app-ssr] (ecmascript).
+Did you mean to import GameCard?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/game-play.tsx [Client Component Browser]
+    ./components/game.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/game-play.tsx [Client Component SSR]
+    ./components/game.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:50:00.678] Browser ERROR   ./components/card-rules-popup.tsx:2:1
+Export default doesn't exist in target module
+  1 | "use client";
+> 2 | import GameCard from "./game-card";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { X } from "lucide-react";
+  4 | import { CARD_POOL } from "@/types/card";
+  5 | import { getCardProbability, getCardRarity } from "@/utils/cardProbability";
+
+The export default was not found in module [project]/components/game-card.tsx [app-client] (ecmascript).
+Did you mean to import GameCard?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/card-rules-popup.tsx [Client Component Browser]
+    ./components/game.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/card-rules-popup.tsx [Client Component SSR]
+    ./components/game.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:50:00.678] Browser ERROR   ./components/card-rules-popup.tsx:2:1
+Export default doesn't exist in target module
+  1 | "use client";
+> 2 | import GameCard from "./game-card";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { X } from "lucide-react";
+  4 | import { CARD_POOL } from "@/types/card";
+  5 | import { getCardProbability, getCardRarity } from "@/utils/cardProbability";
+
+The export default was not found in module [project]/components/game-card.tsx [app-ssr] (ecmascript).
+Did you mean to import GameCard?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/card-rules-popup.tsx [Client Component Browser]
+    ./components/game.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/card-rules-popup.tsx [Client Component SSR]
+    ./components/game.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:50:00.678] Browser ERROR   ./components/game-play.tsx:4:1
+Export default doesn't exist in target module
+  2 |
+  3 | import { useState, useEffect } from "react";
+> 4 | import GameCard from "./game-card";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { CardType } from "@/types/card";
+  6 | import { calculateScore } from "@/utils/calculateScore";
+  7 | import { applyCardEffect } from "@/utils/applyCardEffect";
+
+The export default was not found in module [project]/components/game-card.tsx [app-client] (ecmascript).
+Did you mean to import GameCard?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/game-play.tsx [Client Component Browser]
+    ./components/game.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/game-play.tsx [Client Component SSR]
+    ./components/game.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:50:00.678] Browser ERROR   ./components/game-play.tsx:4:1
+Export default doesn't exist in target module
+  2 |
+  3 | import { useState, useEffect } from "react";
+> 4 | import GameCard from "./game-card";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { CardType } from "@/types/card";
+  6 | import { calculateScore } from "@/utils/calculateScore";
+  7 | import { applyCardEffect } from "@/utils/applyCardEffect";
+
+The export default was not found in module [project]/components/game-card.tsx [app-ssr] (ecmascript).
+Did you mean to import GameCard?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/game-play.tsx [Client Component Browser]
+    ./components/game.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/game-play.tsx [Client Component SSR]
+    ./components/game.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:50:12.820] Server  LOG      ✓ Compiled in 367ms
+[00:50:13.657] Browser ERROR   ./components/card-rules-popup.tsx:2:1
+Export default doesn't exist in target module
+  1 | "use client";
+> 2 | import GameCard from "./game-card";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { X } from "lucide-react";
+  4 | import { CARD_POOL } from "@/types/card";
+  5 | import { getCardProbability, getCardRarity } from "@/utils/cardProbability";
+
+The export default was not found in module [project]/components/game-card.tsx [app-client] (ecmascript).
+Did you mean to import GameCard?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/card-rules-popup.tsx [Client Component Browser]
+    ./components/game.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/card-rules-popup.tsx [Client Component SSR]
+    ./components/game.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:50:13.657] Browser ERROR   ./components/card-rules-popup.tsx:2:1
+Export default doesn't exist in target module
+  1 | "use client";
+> 2 | import GameCard from "./game-card";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { X } from "lucide-react";
+  4 | import { CARD_POOL } from "@/types/card";
+  5 | import { getCardProbability, getCardRarity } from "@/utils/cardProbability";
+
+The export default was not found in module [project]/components/game-card.tsx [app-ssr] (ecmascript).
+Did you mean to import GameCard?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/card-rules-popup.tsx [Client Component Browser]
+    ./components/game.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/card-rules-popup.tsx [Client Component SSR]
+    ./components/game.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:50:13.658] Browser ERROR   ./components/card-rules-popup.tsx:2:1
+Export default doesn't exist in target module
+  1 | "use client";
+> 2 | import GameCard from "./game-card";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { X } from "lucide-react";
+  4 | import { CARD_POOL } from "@/types/card";
+  5 | import { getCardProbability, getCardRarity } from "@/utils/cardProbability";
+
+The export default was not found in module [project]/components/game-card.tsx [app-client] (ecmascript).
+Did you mean to import GameCard?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/card-rules-popup.tsx [Client Component Browser]
+    ./components/game.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/card-rules-popup.tsx [Client Component SSR]
+    ./components/game.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:50:13.658] Browser ERROR   ./components/card-rules-popup.tsx:2:1
+Export default doesn't exist in target module
+  1 | "use client";
+> 2 | import GameCard from "./game-card";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { X } from "lucide-react";
+  4 | import { CARD_POOL } from "@/types/card";
+  5 | import { getCardProbability, getCardRarity } from "@/utils/cardProbability";
+
+The export default was not found in module [project]/components/game-card.tsx [app-ssr] (ecmascript).
+Did you mean to import GameCard?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/card-rules-popup.tsx [Client Component Browser]
+    ./components/game.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/card-rules-popup.tsx [Client Component SSR]
+    ./components/game.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:52:51.626] Server  LOG      ✓ Compiled in 259ms
+[00:52:52.653] Browser ERROR   ./components/game-play.tsx:4:1
+Export GameCard doesn't exist in target module
+  2 |
+  3 | import { useState, useEffect } from "react";
+> 4 | import { GameCard } from "./game-card";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { CardType } from "@/types/card";
+  6 | import { calculateScore } from "@/utils/calculateScore";
+  7 | import { applyCardEffect } from "@/utils/applyCardEffect";
+
+The export GameCard was not found in module [project]/components/game-card.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/game-play.tsx [Client Component Browser]
+    ./components/game.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/game-play.tsx [Client Component SSR]
+    ./components/game.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:52:52.653] Browser ERROR   ./components/game-play.tsx:4:1
+Export GameCard doesn't exist in target module
+  2 |
+  3 | import { useState, useEffect } from "react";
+> 4 | import { GameCard } from "./game-card";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { CardType } from "@/types/card";
+  6 | import { calculateScore } from "@/utils/calculateScore";
+  7 | import { applyCardEffect } from "@/utils/applyCardEffect";
+
+The export GameCard was not found in module [project]/components/game-card.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/game-play.tsx [Client Component Browser]
+    ./components/game.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/game-play.tsx [Client Component SSR]
+    ./components/game.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:52:53.292] Server  LOG      ✓ Compiled in 417ms
+[00:52:53.311] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:52:55.058] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765888287640}
+[00:52:58.805] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:53:00.658] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:53:00.658] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:53:00.658] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765888294290}
+[00:53:34.351] Server  LOG      ✓ Compiled in 500ms
+[00:53:49.387] Browser ERROR   ./components/game-play.tsx:4:1
+Export GameCard doesn't exist in target module
+  2 |
+  3 | import { useState, useEffect } from "react";
+> 4 | import { GameCard } from "./game-card";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { CardType } from "@/types/card";
+  6 | import { calculateScore } from "@/utils/calculateScore";
+  7 | import { applyCardEffect } from "@/utils/applyCardEffect";
+
+The export GameCard was not found in module [project]/components/game-card.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/game-play.tsx [Client Component Browser]
+    ./components/game.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/game-play.tsx [Client Component SSR]
+    ./components/game.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:53:49.387] Browser ERROR   ./components/game-play.tsx:4:1
+Export GameCard doesn't exist in target module
+  2 |
+  3 | import { useState, useEffect } from "react";
+> 4 | import { GameCard } from "./game-card";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { CardType } from "@/types/card";
+  6 | import { calculateScore } from "@/utils/calculateScore";
+  7 | import { applyCardEffect } from "@/utils/applyCardEffect";
+
+The export GameCard was not found in module [project]/components/game-card.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/game-play.tsx [Client Component Browser]
+    ./components/game.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/game-play.tsx [Client Component SSR]
+    ./components/game.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:55:44.247] Server  LOG      ✓ Compiled in 242ms
+[00:56:00.095] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'question')
+[01:00:41.851] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:00:41.856] Server  LOG      ✓ Compiled in 173ms
+[01:00:43.226] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765888756179}
+[01:00:46.700] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:00:48.649] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:00:48.649] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:00:48.649] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765888761983}
+[01:03:48.501] Server  LOG      ✓ Compiled in 2.5s
+[01:05:03.652] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'question')
+[01:06:54.363] Server  LOG      ✓ Compiled in 221ms
+[01:06:54.368] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:06:55.722] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765889128722}
+[01:06:58.681] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:06:59.465] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:06:59.465] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:06:59.465] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765889133624}
+[01:08:44.847] Server  LOG      ✓ Compiled in 312ms
+[01:09:52.448] Server  LOG      ✓ Compiled in 173ms
+[01:10:20.183] Server  LOG      ✓ Compiled in 331ms
+[01:10:37.255] Server  LOG      ✓ Compiled in 304ms
+[01:10:50.510] Server  LOG      ✓ Compiled in 316ms
+[01:12:16.443] Server  LOG      ✓ Compiled in 159ms
+[01:13:27.948] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'question')
+[01:15:43.298] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:15:43.316] Server  LOG      ✓ Compiled in 269ms
+[01:15:45.922] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765889657669}
+[01:15:49.996] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:15:51.777] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:15:51.777] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:15:51.777] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765889665634}
+[01:16:04.149] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:16:05.267] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:16:05.267] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:16:05.267] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765889679440}
+[01:16:28.127] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'question')
+[01:17:18.645] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'question')
+[01:18:56.436] Server  LOG      ✓ Compiled in 239ms
+[01:18:56.468] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:18:56.511] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:19:05.833] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:19:05.869] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:19:09.756] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:19:09.756] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:19:09.756] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765889863219}
+[01:19:09.757] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:19:09.757] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:19:09.757] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765889863221}
+[01:19:20.906] Server  LOG      ✓ Compiled in 1712ms
+[01:20:03.936] Server  LOG      ✓ Compiled in 324ms
+[01:24:45.962] Server  LOG      ✓ Compiled in 207ms
+[01:24:54.789] Server  LOG      ✓ Compiled in 537ms
+[01:25:04.123] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:25:06.470] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="vi"
++                         className="source_sans_3_302bc9c0-module__2twD0G__variable source_code_pro_c20c8deb-module__..."
+-                         className="source_sans_3_302bc9c0-module__2twD0G__variable source_code_pro_c20c8deb-module__..."
+                        >
+                  ...
+
+[01:25:07.656] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:25:07.656] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:25:07.656] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765890220914}
+[01:27:32.622] Server  LOG      ✓ Compiled in 158ms
+[01:30:01.259] Server  LOG      ✓ Compiled in 327ms
+[01:30:26.786] Server  LOG      ✓ Compiled in 289ms
+[01:30:41.398] Server  LOG      ✓ Compiled in 150ms
+[01:43:06.431] Server  LOG      ✓ Compiled in 229ms
+[01:46:11.163] Server  LOG      ✓ Compiled in 287ms
+[01:46:54.697] Server  LOG      ✓ Compiled in 171ms
+[01:47:20.339] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:47:20.853] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:47:20.853] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:47:20.853] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765891554814}
+[01:49:24.461] Server  LOG      ✓ Compiled in 163ms
+[01:50:39.811] Server  LOG      ✓ Compiled in 177ms
+[01:53:47.485] Server  LOG      ✓ Compiled in 258ms
+[01:55:02.049] Server  LOG      ✓ Compiled in 228ms
+[01:55:16.344] Browser LOG     Hết set câu hỏi, tạo set mới...
+[01:55:16.344] Browser LOG     Hết set câu hỏi, tạo set mới...
+[01:55:33.697] Browser LOG     Hết set câu hỏi, tạo set mới...
+[01:55:33.697] Browser LOG     Hết set câu hỏi, tạo set mới...
+[01:55:48.101] Browser LOG     Hết set câu hỏi, tạo set mới...
+[01:55:48.101] Browser LOG     Hết set câu hỏi, tạo set mới...
+[01:56:03.324] Browser LOG     Hết set câu hỏi, tạo set mới...
+[01:56:03.324] Browser LOG     Hết set câu hỏi, tạo set mới...
+[01:56:04.657] Browser LOG     Hết set câu hỏi, tạo set mới...
+[01:56:04.657] Browser LOG     Hết set câu hỏi, tạo set mới...
+[02:04:01.701] Server  LOG      ✓ Compiled in 365ms
+[02:04:41.650] Server  LOG      ✓ Compiled in 198ms
+[02:04:59.069] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:05:01.967] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="vi"
++                         className="source_sans_3_302bc9c0-module__2twD0G__variable source_code_pro_c20c8deb-module__..."
+-                         className="source_sans_3_302bc9c0-module__2twD0G__variable source_code_pro_c20c8deb-module__..."
+-                         style={{--vsc-domain:"\"localhost\""}}
+                        >
+                  ...
+
+[02:05:02.657] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:05:03.237] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:05:03.237] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[02:05:03.237] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765892617027}
+[02:05:04.647] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:05:04.647] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[02:05:04.647] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765892617954}
+[02:05:52.655] Browser LOG     Hết set câu hỏi, tạo set mới...
+[02:05:52.655] Browser LOG     Hết set câu hỏi, tạo set mới...
+[02:06:22.696] Browser LOG     Hết set câu hỏi, tạo set mới...
+[02:11:45.810] Server  LOG      ✓ Compiled in 295ms
+[02:11:49.673] Server  LOG      ✓ Compiled in 148ms
+[02:14:10.815] Server  LOG      ✓ Compiled in 150ms
+[02:14:38.777] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:14:39.102] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:14:39.103] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[02:14:39.103] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765893193238}
+[02:14:57.990] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:14:59.027] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:14:59.027] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[02:14:59.027] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765893213198}
+[02:15:32.381] Browser LOG     Hết set câu hỏi, tạo set mới...
+[02:15:32.381] Browser LOG     Hết set câu hỏi, tạo set mới...
+[02:15:40.749] Browser LOG     Hết set câu hỏi, tạo set mới...
+[02:15:40.749] Browser LOG     Hết set câu hỏi, tạo set mới...
+[02:16:08.303] Browser LOG     Hết set câu hỏi, tạo set mới...
+[02:16:15.659] Browser LOG     Hết set câu hỏi, tạo set mới...
+[02:16:15.659] Browser LOG     Hết set câu hỏi, tạo set mới...
+[02:16:15.805] Browser LOG     Hết set câu hỏi, tạo set mới...
+[02:16:22.575] Browser LOG     Hết set câu hỏi, tạo set mới...
+[02:18:06.646] Server  LOG      ✓ Compiled in 972ms
+[02:19:47.501] Server  LOG      ✓ Compiled in 246ms
+[02:20:00.631] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:20:01.293] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:20:01.293] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[02:20:01.293] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765893515344}
+[02:29:52.198] Server  LOG      ✓ Compiled in 163ms
+[02:31:58.454] Server  LOG      ✓ Compiled in 400ms
+[02:34:27.367] Server  LOG      ✓ Compiled in 145ms
+[02:35:53.272] Server  LOG      ✓ Compiled in 2.3s
+[02:38:15.800] Server  LOG      ✓ Compiled in 429ms
+[02:38:18.228] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[02:38:18.228] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:38:18.228] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[02:38:18.228] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:38:23.658] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[02:38:23.658] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:38:23.658] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[02:38:23.658] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:38:26.109] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[02:38:26.110] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:38:26.110] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[02:38:26.110] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:38:30.809] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[02:38:30.809] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:38:30.809] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[02:38:30.809] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:38:56.776] Server  LOG      ✓ Compiled in 696ms
+[02:38:57.070] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[02:38:57.070] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:38:57.070] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[02:38:57.070] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:39:02.331] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[02:39:02.331] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:39:02.331] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[02:39:02.331] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:39:10.111] Server  LOG      ✓ Compiled in 250ms
+[02:39:10.477] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[02:39:10.477] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:39:10.477] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[02:39:10.477] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:39:14.734] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[02:39:14.734] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:39:14.734] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[02:39:14.734] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:39:16.453] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[02:39:16.454] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:39:16.454] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[02:39:16.454] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:39:25.082] Server  LOG      ✓ Compiled in 254ms
+[02:39:44.268] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[02:39:44.269] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:39:44.269] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[02:39:44.269] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:39:53.545] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[02:39:53.545] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:39:53.545] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[02:39:53.545] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:40:21.343] Server  LOG      ✓ Compiled in 3s
+[02:41:29.910] Server  LOG      ✓ Compiled in 302ms
+[02:41:36.104] Server  LOG      ✓ Compiled in 188ms
+[02:43:08.332] Server  LOG      ✓ Compiled in 1328ms
+[02:46:42.634] Server  LOG      ✓ Compiled in 243ms
+[02:46:43.648] Browser ERROR   <%s /> is using incorrect casing. Use PascalCase for React components, or lowercase for HTML elements. TrendingUp
+[02:46:43.648] Browser ERROR   The tag <%s> is unrecognized in this browser. If you meant to render a React component, start its name with an uppercase letter. TrendingUp
+[02:46:43.649] Browser ERROR   <%s /> is using incorrect casing. Use PascalCase for React components, or lowercase for HTML elements. TrendingUp
+[02:46:43.649] Browser ERROR   The tag <%s> is unrecognized in this browser. If you meant to render a React component, start its name with an uppercase letter. TrendingUp
+[02:47:37.705] Server  LOG      ✓ Compiled in 416ms
+[02:51:53.799] Server  LOG      ✓ Compiled in 703ms
+[02:51:54.664] Browser ERROR   uncaughtError: TypeError: selectedItem.content.events.map is not a function
+[02:54:44.346] Server  LOG      ✓ Compiled in 174ms
+[02:54:44.351] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:54:45.506] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765895598700}
+[02:54:46.728] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:54:48.671] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="vi" className="source_san...">
+                          <body
+                            className="font-sans antialiased"
+-                           __processed_37b1036f-46da-49d6-afad-092ade1276ea__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[02:54:48.671] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:54:48.671] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[02:54:48.671] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765895602404}
+[02:59:35.321] Server  LOG      ✓ Compiled in 214ms
+[03:09:09.478] Server  LOG      ✓ Compiled in 255ms
+[03:13:53.497] Server  LOG      ✓ Compiled in 150ms
+[03:18:17.984] Server  LOG      ✓ Compiled in 466ms
+[03:18:20.191] Server  LOG      ✓ Compiled in 257ms
+[03:26:41.183] Server  LOG      ✓ Compiled in 139ms
+[03:30:13.381] Server  LOG      ✓ Compiled in 193ms
+[03:31:53.737] Server  LOG      ✓ Compiled in 330ms
+[03:35:43.738] Server  LOG      ✓ Compiled in 160ms
+[03:36:56.868] Server  LOG      ✓ Compiled in 2.5s
+[03:36:57.246] Browser ERROR   uncaughtError: ReferenceError: showDetailedContent is not defined
+[03:37:22.905] Server  LOG      ✓ Compiled in 1112ms
+[03:37:22.935] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[03:37:25.902] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765898157337}
+[03:37:31.407] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:37:32.321] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:37:32.321] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:37:32.322] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765898166046}
+[03:44:40.621] Server  LOG      ✓ Compiled in 431ms
+[03:45:48.530] Server  LOG      ✓ Compiled in 196ms
+[03:45:56.581] Server  LOG      ✓ Compiled in 211ms
+[03:48:13.208] Server  LOG      ✓ Compiled in 212ms
+[03:49:20.109] Server  LOG      ✓ Compiled in 181ms
+[03:49:32.926] Server  LOG      ✓ Compiled in 137ms
+[03:55:04.500] Server  LOG      ✓ Compiled in 446ms
+[03:56:44.766] Server  LOG      ✓ Compiled in 558ms
+[03:57:32.569] Server  LOG      ✓ Compiled in 226ms
