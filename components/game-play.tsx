@@ -267,7 +267,7 @@ export default function GamePlay({roomCode, playerId}: {roomCode: string; player
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-100 to-purple-100 p-6">
-      <audio ref={audioRef} src="/Lobby-music.mp3" />
+      <audio ref={audioRef} src="/Lobby-music.mp3" autoPlay loop />
       <div className="mx-auto max-w-2xl space-y-6 text-center">
         <div className="bg-white rounded-xl shadow-lg p-4">
           <p className="text-2xl font-bold text-indigo-600">Điểm: {score}</p>

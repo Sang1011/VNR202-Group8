@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
@@ -60,6 +60,16 @@ export function Game() {
     };
   }, [roomCode]);
 
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+  
+  const handlePlayMusic = () => {
+    if (audioRef.current) {
+      audioRef.current.volume = 0.3;
+      audioRef.current.loop = true;
+      audioRef.current.play().catch((err) => console.log(err));
+    }
+  };
+
   // --- Admin actions ---
   const handleCreateRoom = async () => {
     const { roomCode } = await createRoom();
@@ -73,6 +83,7 @@ export function Game() {
   const handleStartGame = async () => {
     if (!roomCode) return;
     await startGame(roomCode);
+    handlePlayMusic();
   };
 
   const handleCloseRoom = async () => {
@@ -123,34 +134,34 @@ export function Game() {
     <div className="mx-auto max-w-2xl space-y-8">
       {/* End Game Popup cho người chơi */}
       {!isAdmin && gameEnded && (
-  <Dialog open={gameEnded} onOpenChange={(open) => {
-    if (!open) {
-      resetGameState();
-    }
-  }}>
-    <DialogContent className="max-w-md">
-      <DialogHeader>
-        <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-yellow-500/10">
-          <Trophy className="h-8 w-8 text-yellow-500" />
-        </div>
-        <DialogTitle className="text-center text-2xl">
-          Trò chơi đã kết thúc!
-        </DialogTitle>
-        <DialogDescription className="text-center">
-          Cảm ơn bạn đã tham gia. Dưới đây là bảng xếp hạng cuối cùng.
-        </DialogDescription>
-      </DialogHeader>
+        <Dialog open={gameEnded} onOpenChange={(open) => {
+          if (!open) {
+            resetGameState();
+          }
+        }}>
+          <DialogContent className="max-w-md">
+            <DialogHeader>
+              <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-yellow-500/10">
+                <Trophy className="h-8 w-8 text-yellow-500" />
+              </div>
+              <DialogTitle className="text-center text-2xl">
+                Trò chơi đã kết thúc!
+              </DialogTitle>
+              <DialogDescription className="text-center">
+                Cảm ơn bạn đã tham gia. Dưới đây là bảng xếp hạng cuối cùng.
+              </DialogDescription>
+            </DialogHeader>
 
-      {/* === SCROLL AREA === */}
-      <div className="max-h-[60vh] overflow-y-auto pr-2">
-        <Leaderboard
-          players={joinedPlayers}
-          currentPlayerId={playerId}
-        />
-      </div>
-    </DialogContent>
-  </Dialog>
-)}
+            {/* === SCROLL AREA === */}
+            <div className="max-h-[60vh] overflow-y-auto pr-2">
+              <Leaderboard
+                players={joinedPlayers}
+                currentPlayerId={playerId}
+              />
+            </div>
+          </DialogContent>
+        </Dialog>
+      )}
 
 
       {isAdmin ? (
@@ -174,6 +185,7 @@ export function Game() {
           {gameStarted && !gameEnded && (
             <>
               <div className="flex justify-center gap-2">
+              <audio ref={audioRef} src="/Lobby-music.mp3" autoPlay loop />
                 <Button onClick={handleEndGame} variant="destructive">
                   Kết thúc trò chơi
                 </Button>

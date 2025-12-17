@@ -439,10 +439,13 @@ const timelineData = [
       ],
       // Sự kiện nổi bật & tác động
       events: [
-        "2021-2022: Tập trung kiểm soát dịch và phục hồi kinh tế hậu Covid-19.",
-        "Tiếp tục hội nhập quốc tế sâu rộng, tăng cạnh tranh và đòi hỏi năng lực nội sinh mạnh hơn.",
-        "Đẩy mạnh cuộc chiến chống tham nhũng, tiêu cực, củng cố niềm tin."
-      ],
+        "2021-2022: Ưu tiên kiểm soát Covid-19, phục hồi kinh tế hậu đại dịch.",
+        "2021-2025: Triển khai 3 đột phá chiến lược: hoàn thiện thể chế, phát triển nguồn nhân lực chất lượng cao, xây dựng hạ tầng đồng bộ.",
+        "Tiếp tục hội nhập quốc tế sâu rộng, mở cơ hội phát triển, tăng cạnh tranh và nâng cao năng lực nội sinh.",
+        "2021-2025: Đẩy mạnh chống tham nhũng, tiêu cực, củng cố niềm tin xã hội.",
+        "2021-2025: Đối mặt các rủi ro toàn cầu: chiến tranh thương mại Mỹ–Trung, căng thẳng chính trị, biến đổi khí hậu, giá năng lượng tăng, tác động đến xuất khẩu và FDI.",
+        "02/09/2025: Diễu binh kỷ niệm 80 năm Quốc khánh, khẳng định tinh thần đoàn kết và chủ quyền."
+      ]
     },
   }
 ]
