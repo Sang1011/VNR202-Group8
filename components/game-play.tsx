@@ -41,8 +41,8 @@ export default function GamePlay({ roomCode, playerId }: { roomCode: string; pla
   useEffect(() => {
     // Khi component mount thì phát nhạc
     if (audioRef.current) {
-      audioRef.current.volume = 0.3; // chỉnh âm lượng nếu muốn
-      audioRef.current.loop = true;   // lặp nhạc liên tục
+      audioRef.current.volume = 0.3;
+      audioRef.current.loop = true;
       audioRef.current.play().catch((err) => {
         console.log("Autoplay bị chặn:", err);
       });
@@ -65,7 +65,6 @@ export default function GamePlay({ roomCode, playerId }: { roomCode: string; pla
 
   const CARD_COUNT = 3;
   const MAX_FLIP = 2;
-  const [currentSet, setCurrentSet] = useState<Question[]>([]);
   const [cardOptions, setCardOptions] = useState<CardType[]>([]);
   const [cardsFlipped, setCardsFlipped] = useState<boolean[]>([]);
   const [cardFlipsLeft, setCardFlipsLeft] = useState(MAX_FLIP);
@@ -74,9 +73,7 @@ export default function GamePlay({ roomCode, playerId }: { roomCode: string; pla
   // State cho cướp điểm
   const [pendingStealCard, setPendingStealCard] = useState<CardType | null>(null);
   const [allPlayers, setAllPlayers] = useState<Player[]>([]);
-  useEffect(() => {
-    setCurrentSet(shuffle(QUESTIONS_DATA));
-  }, []);
+
   // Timer
   useEffect(() => {
     if (phase !== "question" || selectedOption) return;
@@ -125,12 +122,9 @@ export default function GamePlay({ roomCode, playerId }: { roomCode: string; pla
   const handleAnswer = (option: string) => {
     if (selectedOption) return;
 
-    // Chỉnh sửa logic kiểm tra đáp án:
-    // Kiểm tra xem option được chọn (option: string) có trùng với đáp án đúng trong mảng options không,
-    // sử dụng index (currentQuestion.answer: number) để lấy đáp án đúng.
     const correctOption = currentQuestion.options[currentQuestion.answer];
     setSelectedOption(option);
-    const isCorrect = option === correctOption; // Logic kiểm tra vẫn dùng string
+    const isCorrect = option === correctOption;
 
     if (!isCorrect) {
       setTimeout(nextQuestion, 1200);
@@ -241,17 +235,17 @@ export default function GamePlay({ roomCode, playerId }: { roomCode: string; pla
 
   const nextQuestion = () => {
     setSelectedOption(null);
-    setTimeLeft(15);
+    setTimeLeft(18);
     setCardFlipsLeft(MAX_FLIP);
     setPhase("question");
 
-    // Nếu còn câu trong set hiện tại
-    if (currentIdx + 1 < currentSet.length) {
+    // Nếu còn câu trong mảng questions
+    if (currentIdx + 1 < questions.length) {
       setCurrentIdx(prev => prev + 1);
     } else {
-      // Hết set -> tạo set mới và reset index
-      console.log("Hết set câu hỏi, tạo set mới...");
-      setCurrentSet(shuffle(QUESTIONS_DATA));
+      // Hết câu -> shuffle lại và reset index
+      console.log("Hết câu hỏi, shuffle lại...");
+      setQuestions(shuffle(QUESTIONS_DATA));
       setCurrentIdx(0);
     }
   };

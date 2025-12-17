@@ -2335,64 +2335,68 @@ __turbopack_context__.s([
     ()=>CARD_POOL
 ]);
 const CARD_POOL = [
+    // === CỘNG ĐIỂM (GIẢM) ===
     {
         type: "+50",
-        weight: 30,
+        weight: 20,
         desc: "Cộng thêm 50 điểm."
     },
     {
         type: "+100",
-        weight: 20,
+        weight: 12,
         desc: "Cộng thêm 100 điểm."
     },
     {
         type: "+150",
-        weight: 10,
+        weight: 6,
         desc: "Cộng thêm 150 điểm."
     },
+    // === TRỪ ĐIỂM (TĂNG NHẸ) ===
     {
         type: "-50",
-        weight: 15,
+        weight: 18,
         desc: "Trừ 50 điểm."
     },
     {
         type: "-100",
-        weight: 8,
+        weight: 14,
         desc: "Trừ 100 điểm."
     },
     {
         type: "-150",
-        weight: 4,
+        weight: 12,
         desc: "Trừ 150 điểm."
     },
+    // === NHÂN (GIẢM RÕ) ===
     {
         type: "x2",
-        weight: 15,
+        weight: 8,
         desc: "Nhân đôi điểm vừa nhận."
     },
     {
         type: "x3",
-        weight: 4,
+        weight: 2,
         desc: "Nhân ba điểm vừa nhận."
     },
+    // === TƯƠNG TÁC / PHÁ GAME (TĂNG) ===
     {
         type: "steal20",
-        weight: 8,
+        weight: 10,
         desc: "Cướp 20% tổng điểm của một người chơi khác."
     },
     {
         type: "steal50",
-        weight: 2,
+        weight: 4,
         desc: "Cướp 50% tổng điểm của một người chơi khác."
     },
     {
         type: "swap",
-        weight: 5,
+        weight: 12,
         desc: "Hoán đổi toàn bộ điểm với một người chơi khác."
     },
     {
         type: "loseAll",
-        weight: 1,
+        weight: 8,
         desc: "Mất toàn bộ điểm hiện tại."
     }
 ];
@@ -2972,8 +2976,8 @@ function GamePlay({ roomCode, playerId }) {
         "GamePlay.useEffect": ()=>{
             // Khi component mount thì phát nhạc
             if (audioRef.current) {
-                audioRef.current.volume = 0.3; // chỉnh âm lượng nếu muốn
-                audioRef.current.loop = true; // lặp nhạc liên tục
+                audioRef.current.volume = 0.3;
+                audioRef.current.loop = true;
                 audioRef.current.play().catch({
                     "GamePlay.useEffect": (err)=>{
                         console.log("Autoplay bị chặn:", err);
@@ -2997,7 +3001,6 @@ function GamePlay({ roomCode, playerId }) {
     const [timeLeft, setTimeLeft] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(18);
     const CARD_COUNT = 3;
     const MAX_FLIP = 2;
-    const [currentSet, setCurrentSet] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     const [cardOptions, setCardOptions] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     const [cardsFlipped, setCardsFlipped] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     const [cardFlipsLeft, setCardFlipsLeft] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(MAX_FLIP);
@@ -3005,11 +3008,6 @@ function GamePlay({ roomCode, playerId }) {
     // State cho cướp điểm
     const [pendingStealCard, setPendingStealCard] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     const [allPlayers, setAllPlayers] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
-        "GamePlay.useEffect": ()=>{
-            setCurrentSet(shuffle(__TURBOPACK__imported__module__$5b$project$5d2f$data$2f$question$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["QUESTIONS_DATA"]));
-        }
-    }["GamePlay.useEffect"], []);
     // Timer
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "GamePlay.useEffect": ()=>{
@@ -3075,12 +3073,9 @@ function GamePlay({ roomCode, playerId }) {
     ]);
     const handleAnswer = (option)=>{
         if (selectedOption) return;
-        // Chỉnh sửa logic kiểm tra đáp án:
-        // Kiểm tra xem option được chọn (option: string) có trùng với đáp án đúng trong mảng options không,
-        // sử dụng index (currentQuestion.answer: number) để lấy đáp án đúng.
         const correctOption = currentQuestion.options[currentQuestion.answer];
         setSelectedOption(option);
-        const isCorrect = option === correctOption; // Logic kiểm tra vẫn dùng string
+        const isCorrect = option === correctOption;
         if (!isCorrect) {
             setTimeout(nextQuestion, 1200);
             return;
@@ -3165,16 +3160,16 @@ function GamePlay({ roomCode, playerId }) {
     };
     const nextQuestion = ()=>{
         setSelectedOption(null);
-        setTimeLeft(15);
+        setTimeLeft(18);
         setCardFlipsLeft(MAX_FLIP);
         setPhase("question");
-        // Nếu còn câu trong set hiện tại
-        if (currentIdx + 1 < currentSet.length) {
+        // Nếu còn câu trong mảng questions
+        if (currentIdx + 1 < questions.length) {
             setCurrentIdx((prev)=>prev + 1);
         } else {
-            // Hết set -> tạo set mới và reset index
-            console.log("Hết set câu hỏi, tạo set mới...");
-            setCurrentSet(shuffle(__TURBOPACK__imported__module__$5b$project$5d2f$data$2f$question$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["QUESTIONS_DATA"]));
+            // Hết câu -> shuffle lại và reset index
+            console.log("Hết câu hỏi, shuffle lại...");
+            setQuestions(shuffle(__TURBOPACK__imported__module__$5b$project$5d2f$data$2f$question$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["QUESTIONS_DATA"]));
             setCurrentIdx(0);
         }
     };
@@ -3187,12 +3182,12 @@ function GamePlay({ roomCode, playerId }) {
                 children: "Đang tải câu hỏi..."
             }, void 0, false, {
                 fileName: "[project]/components/game-play.tsx",
-                lineNumber: 264,
+                lineNumber: 258,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/game-play.tsx",
-            lineNumber: 263,
+            lineNumber: 257,
             columnNumber: 7
         }, this);
     }
@@ -3209,7 +3204,7 @@ function GamePlay({ roomCode, playerId }) {
                 className: "jsx-2af4dab3cd9b1dd2"
             }, void 0, false, {
                 fileName: "[project]/components/game-play.tsx",
-                lineNumber: 274,
+                lineNumber: 268,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3225,12 +3220,12 @@ function GamePlay({ roomCode, playerId }) {
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/game-play.tsx",
-                            lineNumber: 277,
+                            lineNumber: 271,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/game-play.tsx",
-                        lineNumber: 276,
+                        lineNumber: 270,
                         columnNumber: 9
                     }, this),
                     phase === "question" && currentQuestion && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3241,7 +3236,7 @@ function GamePlay({ roomCode, playerId }) {
                                 children: currentQuestion.question
                             }, void 0, false, {
                                 fileName: "[project]/components/game-play.tsx",
-                                lineNumber: 283,
+                                lineNumber: 277,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3253,7 +3248,7 @@ function GamePlay({ roomCode, playerId }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/game-play.tsx",
-                                lineNumber: 284,
+                                lineNumber: 278,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3277,19 +3272,19 @@ function GamePlay({ roomCode, playerId }) {
                                         children: opt
                                     }, opt, false, {
                                         fileName: "[project]/components/game-play.tsx",
-                                        lineNumber: 305,
+                                        lineNumber: 299,
                                         columnNumber: 19
                                     }, this);
                                 })
                             }, void 0, false, {
                                 fileName: "[project]/components/game-play.tsx",
-                                lineNumber: 286,
+                                lineNumber: 280,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/game-play.tsx",
-                        lineNumber: 282,
+                        lineNumber: 276,
                         columnNumber: 11
                     }, this),
                     phase === "popup" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3302,7 +3297,7 @@ function GamePlay({ roomCode, playerId }) {
                                     children: "🎉 Trả lời đúng!"
                                 }, void 0, false, {
                                     fileName: "[project]/components/game-play.tsx",
-                                    lineNumber: 323,
+                                    lineNumber: 317,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3310,7 +3305,7 @@ function GamePlay({ roomCode, playerId }) {
                                     children: cardFlipsLeft === MAX_FLIP ? "Bạn có muốn bóc bài để nhận thưởng thêm?" : `Bạn còn ${cardFlipsLeft} lượt bóc. Tiếp tục?`
                                 }, void 0, false, {
                                     fileName: "[project]/components/game-play.tsx",
-                                    lineNumber: 324,
+                                    lineNumber: 318,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3322,7 +3317,7 @@ function GamePlay({ roomCode, playerId }) {
                                             children: "🎴 Bóc bài"
                                         }, void 0, false, {
                                             fileName: "[project]/components/game-play.tsx",
-                                            lineNumber: 330,
+                                            lineNumber: 324,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3331,24 +3326,24 @@ function GamePlay({ roomCode, playerId }) {
                                             children: "➡️ Câu kế tiếp"
                                         }, void 0, false, {
                                             fileName: "[project]/components/game-play.tsx",
-                                            lineNumber: 336,
+                                            lineNumber: 330,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/game-play.tsx",
-                                    lineNumber: 329,
+                                    lineNumber: 323,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/game-play.tsx",
-                            lineNumber: 322,
+                            lineNumber: 316,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/game-play.tsx",
-                        lineNumber: 321,
+                        lineNumber: 315,
                         columnNumber: 11
                     }, this),
                     phase === "card" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3359,7 +3354,7 @@ function GamePlay({ roomCode, playerId }) {
                                 children: "🎴 Chọn bài để bóc"
                             }, void 0, false, {
                                 fileName: "[project]/components/game-play.tsx",
-                                lineNumber: 350,
+                                lineNumber: 344,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3370,12 +3365,12 @@ function GamePlay({ roomCode, playerId }) {
                                         onClick: ()=>handleCardClick(idx)
                                     }, idx, false, {
                                         fileName: "[project]/components/game-play.tsx",
-                                        lineNumber: 354,
+                                        lineNumber: 348,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/game-play.tsx",
-                                lineNumber: 352,
+                                lineNumber: 346,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3386,13 +3381,13 @@ function GamePlay({ roomCode, playerId }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/game-play.tsx",
-                                lineNumber: 363,
+                                lineNumber: 357,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/game-play.tsx",
-                        lineNumber: 349,
+                        lineNumber: 343,
                         columnNumber: 11
                     }, this),
                     phase === "selectPlayer" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3409,7 +3404,7 @@ function GamePlay({ roomCode, playerId }) {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/game-play.tsx",
-                                    lineNumber: 371,
+                                    lineNumber: 365,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3417,7 +3412,7 @@ function GamePlay({ roomCode, playerId }) {
                                     children: "Chọn người chơi để thực hiện:"
                                 }, void 0, false, {
                                     fileName: "[project]/components/game-play.tsx",
-                                    lineNumber: 376,
+                                    lineNumber: 370,
                                     columnNumber: 15
                                 }, this),
                                 otherPlayers.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3428,7 +3423,7 @@ function GamePlay({ roomCode, playerId }) {
                                             children: "Không có người chơi khác trong phòng"
                                         }, void 0, false, {
                                             fileName: "[project]/components/game-play.tsx",
-                                            lineNumber: 380,
+                                            lineNumber: 374,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3448,13 +3443,13 @@ function GamePlay({ roomCode, playerId }) {
                                             children: "Tiếp tục"
                                         }, void 0, false, {
                                             fileName: "[project]/components/game-play.tsx",
-                                            lineNumber: 381,
+                                            lineNumber: 375,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/game-play.tsx",
-                                    lineNumber: 379,
+                                    lineNumber: 373,
                                     columnNumber: 17
                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "jsx-2af4dab3cd9b1dd2" + " " + "space-y-3",
@@ -3467,7 +3462,7 @@ function GamePlay({ roomCode, playerId }) {
                                                     children: player.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/game-play.tsx",
-                                                    lineNumber: 407,
+                                                    lineNumber: 401,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3478,35 +3473,35 @@ function GamePlay({ roomCode, playerId }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/game-play.tsx",
-                                                    lineNumber: 408,
+                                                    lineNumber: 402,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, player.id, true, {
                                             fileName: "[project]/components/game-play.tsx",
-                                            lineNumber: 402,
+                                            lineNumber: 396,
                                             columnNumber: 21
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/game-play.tsx",
-                                    lineNumber: 400,
+                                    lineNumber: 394,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/game-play.tsx",
-                            lineNumber: 370,
+                            lineNumber: 364,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/game-play.tsx",
-                        lineNumber: 369,
+                        lineNumber: 363,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/game-play.tsx",
-                lineNumber: 275,
+                lineNumber: 269,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$styled$2d$jsx$40$5$2e$1$2e$6_react$40$19$2e$2$2e$0$2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -3516,11 +3511,11 @@ function GamePlay({ roomCode, playerId }) {
         ]
     }, void 0, true, {
         fileName: "[project]/components/game-play.tsx",
-        lineNumber: 273,
+        lineNumber: 267,
         columnNumber: 5
     }, this);
 }
-_s(GamePlay, "8O2yzP/qCoqCDRE2v4zWrPzTwBo=");
+_s(GamePlay, "7VZLKXId0SlYlAOf100RodAOdFo=");
 _c = GamePlay;
 var _c;
 __turbopack_context__.k.register(_c, "GamePlay");
