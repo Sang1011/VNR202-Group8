@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import GameCard from "./game-card";
 import { CardType } from "@/types/card";
 import { calculateScore } from "@/utils/calculateScore";
@@ -35,6 +35,27 @@ function shuffle<T>(arr: T[]): T[] {
 export default function GamePlay({roomCode, playerId}: {roomCode: string; playerId: string}) {
   const [phase, setPhase] = useState<Phase>("question");
   const [score, setScore] = useState(0);
+
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+
+  useEffect(() => {
+    // Khi component mount thì phát nhạc
+    if (audioRef.current) {
+      audioRef.current.volume = 0.3; // chỉnh âm lượng nếu muốn
+      audioRef.current.loop = true;   // lặp nhạc liên tục
+      audioRef.current.play().catch((err) => {
+        console.log("Autoplay bị chặn:", err);
+      });
+    }
+
+    return () => {
+      // Khi unmount thì tắt nhạc
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current.currentTime = 0;
+      }
+    };
+  }, []);
 
   const [questions, setQuestions] = useState<Question[]>(shuffle(QUESTIONS_DATA));
   const [currentIdx, setCurrentIdx] = useState(0);
@@ -246,6 +267,7 @@ export default function GamePlay({roomCode, playerId}: {roomCode: string; player
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-100 to-purple-100 p-6">
+      <audio ref={audioRef} src="/Lobby-music.mp3" />
       <div className="mx-auto max-w-2xl space-y-6 text-center">
         <div className="bg-white rounded-xl shadow-lg p-4">
           <p className="text-2xl font-bold text-indigo-600">Điểm: {score}</p>

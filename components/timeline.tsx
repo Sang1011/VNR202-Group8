@@ -241,7 +241,7 @@ const timelineData = [
     color: "bg-rose-500",
     borderColor: "border-rose-500",
     textColor: "text-rose-600",
-    icon: Globe, 
+    icon: Globe,
     summary: "Đẩy mạnh toàn diện công cuộc đổi mới, chú trọng xây dựng Đảng, hội nhập kinh tế quốc tế và gia nhập WTO (2007).",
     image: './back10.webp',
     content: {
@@ -295,7 +295,7 @@ const timelineData = [
     color: "bg-slate-700",
     borderColor: "border-slate-700",
     textColor: "text-slate-700",
-    icon: Building2, 
+    icon: Building2,
     summary: "Đề ra Cương lĩnh 2011 và Chiến lược 2011-2020. Mục tiêu: Cơ bản trở thành nước công nghiệp theo hướng hiện đại vào năm 2020.",
     image: './back11.webp',
     content: {
@@ -376,8 +376,7 @@ const timelineData = [
         "Xây dựng, chỉnh đốn Đảng, ngăn chặn suy thoái, 'tự diễn biến, tự chuyển hóa' (NQ 04-NQ/TW).",
         "Đổi mới mô hình tăng trưởng, cơ cấu lại nền kinh tế (thực hiện 3 đột phá chiến lược).",
         "Hoàn thiện thể chế kinh tế thị trường định hướng XHCN (NQ 05-NQ/TW).",
-        "Chủ động hội nhập quốc tế nhưng giữ vững độc lập, tự chủ.",
-        "Tinh gọn bộ máy, chống tham nhũng, lãng phí, quan liêu."
+        "Chủ động hội nhập quốc tế nhưng giữ vững độc lập, tự chủ."
       ],
       // Mục tiêu & Nhiệm vụ
       targetsAndMissions: [
@@ -408,28 +407,30 @@ const timelineData = [
       // Bối cảnh lịch sử
       background: {
         domestic: [
-          "Đã có nền tảng vững chắc sau 35 năm Đổi mới; 'thế và lực tăng lên rõ rệt'.",
-          "Nảy sinh các vấn đề chiến lược mới: phát triển bền vững, chuyển đổi số, an ninh phi truyền thống.",
-          "Cần định hình tư duy phát triển dài hạn, tháo gỡ điểm nghẽn thể chế."
+          "Thời cơ và thách thức đan xen sau 35 năm Đổi mới; nền tảng vững chắc, 'thế và lực tăng lên rõ rệt'.",
+          "Nảy sinh các vấn đề chiến lược mới: phát triển bền vững, chuyển đổi số, nâng cao năng suất, an ninh phi truyền thống.",
+          "Cần định hình tư duy phát triển dài hạn và tháo gỡ các điểm nghẽn về thể chế."
         ],
         international: [
-          "Hậu Covid-19, kinh tế thế giới phục hồi nhưng rủi ro cao.",
-          "Biến đổi khí hậu trở thành vấn đề toàn cầu.",
+          "Thế giới phức tạp, khó lường; hậu Covid-19, kinh tế thế giới phục hồi nhưng vẫn tiềm ẩn nhiều rủi ro.",
+          "Biến đổi khí hậu và thiên tai trở thành vấn đề toàn cầu.",
           "Cách mạng công nghiệp 4.0 tác động mạnh mẽ, tạo áp lực cạnh tranh toàn cầu."
-        ],
-      },
-      // Hạn chế của Chính sách cũ
+        ]
+      },      
       oldPolicies: [
-        "Cần chuyển đổi dứt khoát từ mô hình tăng trưởng truyền thống (dựa vào vốn/lao động) sang kinh tế số/kinh tế xanh.",
-        "Thực hiện các đột phá chiến lược (Thể chế, Nhân lực, Hạ tầng) còn nhiều hạn chế cần được tháo gỡ."
+        "Một số chính sách từ Đại hội XII đã đạt kết quả nhưng chưa tháo gỡ triệt để các điểm nghẽn về thể chế.",
+        "Năng lực quản trị quốc gia và nguồn nhân lực chưa đáp ứng yêu cầu phát triển dài hạn.",
+        "Hạ tầng kinh tế – xã hội còn chưa đồng bộ, chưa phục vụ tốt chuyển đổi số.",
+        "Tham nhũng, lãng phí, suy thoái trong nội bộ Đảng và hệ thống chính trị vẫn còn phức tạp, cần đấu tranh quyết liệt hơn."
       ],
-      // Chính sách mới / Trọng tâm Đại hội XIII
       newPolicies: [
-        "Xác định tầm nhìn phát triển đến 2030 (100 năm thành lập Đảng) và 2045 (100 năm thành lập nước).",
-        "Xây dựng Đảng và hệ thống chính trị trong sạch, hiệu lực.",
-        "Thực hiện 3 đột phá chiến lược (Thể chế, Nhân lực, Hạ tầng) để nâng cao năng suất, năng lực cạnh tranh.",
-        "Đẩy mạnh chuyển đổi xanh, ứng phó biến đổi khí hậu; phát triển kinh tế số, xã hội số."
-      ],
+        "Đổi mới toàn diện, khơi dậy khát vọng phát triển đất nước.",
+        "Xây dựng Đảng và hệ thống chính trị trong sạch, vững mạnh, hiệu lực, hiệu quả.",
+        "Hội nhập quốc tế chủ động nhưng giữ vững độc lập, tự chủ.",
+        "Đẩy mạnh chuyển đổi mô hình tăng trưởng dựa trên khoa học – công nghệ, đổi mới sáng tạo; phát triển kinh tế số, xã hội số.",
+        "Đích đến: 2021–2025: phục hồi kinh tế, chuyển đổi số; 2030: kỷ niệm 100 năm thành lập Đảng; 2045: trở thành nước phát triển, thu nhập cao theo định hướng XHCN."
+      ]
+  ,      
       // Mục tiêu & Nhiệm vụ (Đích đến)
       targetsAndMissions: [
         "Mục tiêu 2030: Trở thành nước đang phát triển, có công nghiệp hiện đại, thu nhập trung bình cao.",
