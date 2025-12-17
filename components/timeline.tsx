@@ -176,13 +176,14 @@ const timelineData = [
         ],
       },
       economicOrientation: {
-        "title": "Định hướng phát triển toàn diện",
-        "content": [
-          "Kiên trì, lâu dài phát triển kinh tế thị trường định hướng XHCN.",
-          "Thực hiện cơ chế đa sở hữu, đa thành phần.",
-          "Phân phối chủ yếu theo lao động và hiệu quả, đồng thời theo đóng góp vốn/nguồn lực và phúc lợi xã hội."
+        title: "Định hướng phát triển toàn diện",
+        content: [
+          "Kinh tế: Kiên trì, lâu dài phát triển kinh tế thị trường định hướng xã hội chủ nghĩa; thực hiện cơ chế đa sở hữu, đa thành phần; phân phối chủ yếu theo lao động và hiệu quả, đồng thời theo đóng góp vốn, nguồn lực và phúc lợi xã hội.",
+          "Xã hội – giai cấp: Tăng cường đoàn kết, hợp tác trong nhân dân; nội dung trọng tâm của đấu tranh là thực hiện công nghiệp hóa – hiện đại hóa, bảo đảm công bằng xã hội, phòng chống tiêu cực và làm thất bại các âm mưu chống phá.",
+          "Văn hóa: Xây dựng nền văn hóa Việt Nam tiên tiến, đậm đà bản sắc dân tộc; phát triển con người Việt Nam toàn diện.",
+          "Đối ngoại: Thực hiện đường lối đối ngoại độc lập, tự chủ; đa phương hóa, đa dạng hóa quan hệ; chủ động hội nhập kinh tế quốc tế; Việt Nam là bạn, là đối tác tin cậy của cộng đồng quốc tế."
         ]
-      },
+      },      
       socialAndCulturalDevelopment: {
         // 1. Văn hóa & Con người (từ Định hướng phát triển toàn diện)
         cultureAndPeople: [
