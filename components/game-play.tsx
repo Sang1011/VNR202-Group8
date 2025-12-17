@@ -14,7 +14,7 @@ type Phase = "question" | "card" | "popup" | "selectPlayer";
 interface Question {
   question: string;
   options: string[];
-  answer: string;
+  answer: number;
 }
 
 interface Player {
@@ -32,7 +32,7 @@ function shuffle<T>(arr: T[]): T[] {
   return newArr;
 }
 
-export default function GamePlay({roomCode, playerId}: {roomCode: string; playerId: string}) {
+export default function GamePlay({ roomCode, playerId }: { roomCode: string; playerId: string }) {
   const [phase, setPhase] = useState<Phase>("question");
   const [score, setScore] = useState(0);
 
@@ -61,7 +61,7 @@ export default function GamePlay({roomCode, playerId}: {roomCode: string; player
   const [currentIdx, setCurrentIdx] = useState(0);
 
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
-  const [timeLeft, setTimeLeft] = useState(15);
+  const [timeLeft, setTimeLeft] = useState(18);
 
   const CARD_COUNT = 3;
   const MAX_FLIP = 2;
@@ -94,7 +94,7 @@ export default function GamePlay({roomCode, playerId}: {roomCode: string; player
   // Lắng nghe điểm của player hiện tại
   useEffect(() => {
     if (!roomCode || !playerId) return;
-  
+
     const unsubscribe = onPlayerScoreUpdate(
       roomCode,
       playerId,
@@ -102,7 +102,7 @@ export default function GamePlay({roomCode, playerId}: {roomCode: string; player
         setScore(newScore);
       }
     );
-  
+
     return () => unsubscribe();
   }, [roomCode, playerId]);
 
@@ -125,8 +125,12 @@ export default function GamePlay({roomCode, playerId}: {roomCode: string; player
   const handleAnswer = (option: string) => {
     if (selectedOption) return;
 
+    // Chỉnh sửa logic kiểm tra đáp án:
+    // Kiểm tra xem option được chọn (option: string) có trùng với đáp án đúng trong mảng options không,
+    // sử dụng index (currentQuestion.answer: number) để lấy đáp án đúng.
+    const correctOption = currentQuestion.options[currentQuestion.answer];
     setSelectedOption(option);
-    const isCorrect = option === currentQuestion.answer;
+    const isCorrect = option === correctOption; // Logic kiểm tra vẫn dùng string
 
     if (!isCorrect) {
       setTimeout(nextQuestion, 1200);
@@ -157,19 +161,19 @@ export default function GamePlay({roomCode, playerId}: {roomCode: string; player
 
   const handleCardClick = (idx: number) => {
     if (
-      isCardProcessing || 
-      cardsFlipped[idx] || 
+      isCardProcessing ||
+      cardsFlipped[idx] ||
       cardFlipsLeft <= 0
     ) return;
-  
+
     setIsCardProcessing(true);
-  
+
     setCardsFlipped((prev) =>
       prev.map((v, i) => (i === idx ? true : v))
     );
-  
+
     const card = cardOptions[idx];
-  
+
     setTimeout(() => {
       // Kiểm tra nếu là bài cướp điểm hoặc swap
       if (card === "steal20" || card === "steal50" || card === "swap") {
@@ -183,10 +187,10 @@ export default function GamePlay({roomCode, playerId}: {roomCode: string; player
           playerId,
           card,
         });
-  
+
         setCardFlipsLeft((prev) => {
           const remaining = prev - 1;
-  
+
           if (remaining > 0) {
             setTimeout(() => {
               setPhase("popup");
@@ -198,7 +202,7 @@ export default function GamePlay({roomCode, playerId}: {roomCode: string; player
               setIsCardProcessing(false);
             }, 1200);
           }
-  
+
           return remaining;
         });
       }
@@ -280,15 +284,20 @@ export default function GamePlay({roomCode, playerId}: {roomCode: string; player
             <p className="text-sm text-gray-500 mb-4">Thời gian còn lại: {timeLeft}s</p>
 
             <div className="grid grid-cols-2 gap-4">
-              {currentQuestion.options.map((opt) => {
-                const isCorrect = opt === currentQuestion.answer;
+              {currentQuestion.options.map((opt, index) => {
+                const isCorrect = index === currentQuestion.answer;
+                const isSelected = opt === selectedOption;
+                
                 let style = "bg-gray-100 hover:bg-gray-200";
 
                 if (selectedOption) {
-                  if (opt === selectedOption) {
-                    style = isCorrect ? "bg-green-500 text-white" : "bg-red-500 text-white";
-                  } else if (isCorrect) {
+                  // Nếu là đáp án đúng -> luôn hiển thị màu xanh
+                  if (isCorrect) {
                     style = "bg-green-500 text-white";
+                  }
+                  // Nếu là đáp án được chọn SAI -> hiển thị màu đỏ
+                  else if (isSelected) {
+                    style = "bg-red-500 text-white";
                   }
                 }
 
@@ -313,7 +322,7 @@ export default function GamePlay({roomCode, playerId}: {roomCode: string; player
             <div className="bg-white rounded-2xl shadow-2xl p-8 max-w-md mx-4 animate-scale-in">
               <h2 className="text-2xl font-bold text-indigo-600 mb-4">🎉 Trả lời đúng!</h2>
               <p className="text-gray-700 mb-6">
-                {cardFlipsLeft === MAX_FLIP 
+                {cardFlipsLeft === MAX_FLIP
                   ? "Bạn có muốn bóc bài để nhận thưởng thêm?"
                   : `Bạn còn ${cardFlipsLeft} lượt bóc. Tiếp tục?`}
               </p>
@@ -342,11 +351,11 @@ export default function GamePlay({roomCode, playerId}: {roomCode: string; player
 
             <div className="flex justify-center gap-6">
               {cardOptions.map((type, idx) => (
-                <GameCard 
-                  key={idx} 
-                  type={type} 
-                  flipped={cardsFlipped[idx]} 
-                  onClick={() => handleCardClick(idx)} 
+                <GameCard
+                  key={idx}
+                  type={type}
+                  flipped={cardsFlipped[idx]}
+                  onClick={() => handleCardClick(idx)}
                 />
               ))}
             </div>

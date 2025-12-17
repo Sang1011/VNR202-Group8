@@ -474,9 +474,12 @@ const timelineData = [
             ],
             // Sự kiện nổi bật & tác động
             events: [
-                "2021-2022: Tập trung kiểm soát dịch và phục hồi kinh tế hậu Covid-19.",
-                "Tiếp tục hội nhập quốc tế sâu rộng, tăng cạnh tranh và đòi hỏi năng lực nội sinh mạnh hơn.",
-                "Đẩy mạnh cuộc chiến chống tham nhũng, tiêu cực, củng cố niềm tin."
+                "2021-2022: Ưu tiên kiểm soát Covid-19, phục hồi kinh tế hậu đại dịch.",
+                "2021-2025: Triển khai 3 đột phá chiến lược: hoàn thiện thể chế, phát triển nguồn nhân lực chất lượng cao, xây dựng hạ tầng đồng bộ.",
+                "Tiếp tục hội nhập quốc tế sâu rộng, mở cơ hội phát triển, tăng cạnh tranh và nâng cao năng lực nội sinh.",
+                "2021-2025: Đẩy mạnh chống tham nhũng, tiêu cực, củng cố niềm tin xã hội.",
+                "2021-2025: Đối mặt các rủi ro toàn cầu: chiến tranh thương mại Mỹ–Trung, căng thẳng chính trị, biến đổi khí hậu, giá năng lượng tăng, tác động đến xuất khẩu và FDI.",
+                "02/09/2025: Diễu binh kỷ niệm 80 năm Quốc khánh, khẳng định tinh thần đoàn kết và chủ quyền."
             ]
         }
     }
@@ -494,19 +497,19 @@ function Timeline() {
                     children: "BẮT ĐẦU"
                 }, void 0, false, {
                     fileName: "[project]/components/timeline.tsx",
-                    lineNumber: 457,
+                    lineNumber: 460,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/timeline.tsx",
-                lineNumber: 456,
+                lineNumber: 459,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute left-1/2 top-20 bottom-20 w-1 -translate-x-1/2 bg-gradient-to-b from-cyan-500 via-amber-500 to-emerald-500"
             }, void 0, false, {
                 fileName: "[project]/components/timeline.tsx",
-                lineNumber: 463,
+                lineNumber: 466,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -525,17 +528,17 @@ function Timeline() {
                                         className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("h-5 w-5", item.textColor)
                                     }, void 0, false, {
                                         fileName: "[project]/components/timeline.tsx",
-                                        lineNumber: 481,
+                                        lineNumber: 484,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/timeline.tsx",
-                                    lineNumber: 475,
+                                    lineNumber: 478,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/timeline.tsx",
-                                lineNumber: 474,
+                                lineNumber: 477,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -545,7 +548,7 @@ function Timeline() {
                                         className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("absolute top-6 h-0.5 w-8 border-t-2 border-dashed border-muted-foreground/50", isLeft ? "right-0" : "left-0")
                                     }, void 0, false, {
                                         fileName: "[project]/components/timeline.tsx",
-                                        lineNumber: 488,
+                                        lineNumber: 491,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -559,7 +562,7 @@ function Timeline() {
                                                 children: item.year
                                             }, void 0, false, {
                                                 fileName: "[project]/components/timeline.tsx",
-                                                lineNumber: 504,
+                                                lineNumber: 507,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -569,12 +572,12 @@ function Timeline() {
                                                     className: "mb-4 h-60 w-full rounded-lg object-cover"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/timeline.tsx",
-                                                    lineNumber: 511,
+                                                    lineNumber: 514,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/timeline.tsx",
-                                                lineNumber: 510,
+                                                lineNumber: 513,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -582,7 +585,7 @@ function Timeline() {
                                                 children: item.title
                                             }, void 0, false, {
                                                 fileName: "[project]/components/timeline.tsx",
-                                                lineNumber: 515,
+                                                lineNumber: 518,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -590,31 +593,31 @@ function Timeline() {
                                                 children: item.summary
                                             }, void 0, false, {
                                                 fileName: "[project]/components/timeline.tsx",
-                                                lineNumber: 518,
+                                                lineNumber: 521,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/timeline.tsx",
-                                        lineNumber: 495,
+                                        lineNumber: 498,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/timeline.tsx",
-                                lineNumber: 486,
+                                lineNumber: 489,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, item.id, true, {
                         fileName: "[project]/components/timeline.tsx",
-                        lineNumber: 472,
+                        lineNumber: 475,
                         columnNumber: 13
                     }, this);
                 })
             }, void 0, false, {
                 fileName: "[project]/components/timeline.tsx",
-                lineNumber: 466,
+                lineNumber: 469,
                 columnNumber: 7
             }, this),
             selectedItem && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -633,14 +636,14 @@ function Timeline() {
                                     priority: true
                                 }, void 0, false, {
                                     fileName: "[project]/components/timeline.tsx",
-                                    lineNumber: 531,
+                                    lineNumber: 534,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"
                                 }, void 0, false, {
                                     fileName: "[project]/components/timeline.tsx",
-                                    lineNumber: 538,
+                                    lineNumber: 541,
                                     columnNumber: 15
                                 }, this),
                                 selectedItem.contentNext && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -652,7 +655,7 @@ function Timeline() {
                                             children: "Thông tin chung"
                                         }, void 0, false, {
                                             fileName: "[project]/components/timeline.tsx",
-                                            lineNumber: 542,
+                                            lineNumber: 545,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -661,19 +664,19 @@ function Timeline() {
                                             children: "Chi tiết Nghị quyết"
                                         }, void 0, false, {
                                             fileName: "[project]/components/timeline.tsx",
-                                            lineNumber: 553,
+                                            lineNumber: 556,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/timeline.tsx",
-                                    lineNumber: 541,
+                                    lineNumber: 544,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/timeline.tsx",
-                            lineNumber: 530,
+                            lineNumber: 533,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -688,7 +691,7 @@ function Timeline() {
                                     children: "✕"
                                 }, void 0, false, {
                                     fileName: "[project]/components/timeline.tsx",
-                                    lineNumber: 571,
+                                    lineNumber: 574,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -699,7 +702,7 @@ function Timeline() {
                                             children: selectedItem.year
                                         }, void 0, false, {
                                             fileName: "[project]/components/timeline.tsx",
-                                            lineNumber: 583,
+                                            lineNumber: 586,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -707,7 +710,7 @@ function Timeline() {
                                             children: selectedItem.title
                                         }, void 0, false, {
                                             fileName: "[project]/components/timeline.tsx",
-                                            lineNumber: 591,
+                                            lineNumber: 594,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -715,13 +718,13 @@ function Timeline() {
                                             children: selectedItem.summary
                                         }, void 0, false, {
                                             fileName: "[project]/components/timeline.tsx",
-                                            lineNumber: 592,
+                                            lineNumber: 595,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/timeline.tsx",
-                                    lineNumber: 582,
+                                    lineNumber: 585,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -737,7 +740,7 @@ function Timeline() {
                                                         children: "Bối cảnh"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 602,
+                                                        lineNumber: 605,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -750,7 +753,7 @@ function Timeline() {
                                                                         children: "Trong nước"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/timeline.tsx",
-                                                                        lineNumber: 606,
+                                                                        lineNumber: 609,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -762,18 +765,18 @@ function Timeline() {
                                                                                 ]
                                                                             }, i, true, {
                                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                                lineNumber: 611,
+                                                                                lineNumber: 614,
                                                                                 columnNumber: 31
                                                                             }, this))
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/timeline.tsx",
-                                                                        lineNumber: 609,
+                                                                        lineNumber: 612,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                lineNumber: 605,
+                                                                lineNumber: 608,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -783,12 +786,12 @@ function Timeline() {
                                                                     "aria-hidden": "true"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/timeline.tsx",
-                                                                    lineNumber: 618,
+                                                                    lineNumber: 621,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                lineNumber: 617,
+                                                                lineNumber: 620,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -798,7 +801,7 @@ function Timeline() {
                                                                         children: "Quốc tế"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/timeline.tsx",
-                                                                        lineNumber: 623,
+                                                                        lineNumber: 626,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -810,30 +813,30 @@ function Timeline() {
                                                                                 ]
                                                                             }, i, true, {
                                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                                lineNumber: 628,
+                                                                                lineNumber: 631,
                                                                                 columnNumber: 31
                                                                             }, this))
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/timeline.tsx",
-                                                                        lineNumber: 626,
+                                                                        lineNumber: 629,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                lineNumber: 622,
+                                                                lineNumber: 625,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 603,
+                                                        lineNumber: 606,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/timeline.tsx",
-                                                lineNumber: 601,
+                                                lineNumber: 604,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -843,7 +846,7 @@ function Timeline() {
                                                         children: "Chuyển đổi chính sách"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 637,
+                                                        lineNumber: 640,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -857,7 +860,7 @@ function Timeline() {
                                                                         children: "Chính sách cũ"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/timeline.tsx",
-                                                                        lineNumber: 641,
+                                                                        lineNumber: 644,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -869,31 +872,31 @@ function Timeline() {
                                                                                         className: "mt-0.5 h-3.5 w-3.5 text-destructive"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/components/timeline.tsx",
-                                                                                        lineNumber: 646,
+                                                                                        lineNumber: 649,
                                                                                         columnNumber: 33
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                                         children: p
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/components/timeline.tsx",
-                                                                                        lineNumber: 647,
+                                                                                        lineNumber: 650,
                                                                                         columnNumber: 33
                                                                                     }, this)
                                                                                 ]
                                                                             }, i, true, {
                                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                                lineNumber: 644,
+                                                                                lineNumber: 647,
                                                                                 columnNumber: 31
                                                                             }, this))
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/timeline.tsx",
-                                                                        lineNumber: 642,
+                                                                        lineNumber: 645,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                lineNumber: 640,
+                                                                lineNumber: 643,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -902,12 +905,12 @@ function Timeline() {
                                                                     className: "h-8 w-8 text-muted-foreground"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/timeline.tsx",
-                                                                    lineNumber: 656,
+                                                                    lineNumber: 659,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                lineNumber: 654,
+                                                                lineNumber: 657,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -918,7 +921,7 @@ function Timeline() {
                                                                         children: "Chính sách mới"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/timeline.tsx",
-                                                                        lineNumber: 661,
+                                                                        lineNumber: 664,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -930,43 +933,43 @@ function Timeline() {
                                                                                         className: "mt-0.5 h-3.5 w-3.5 text-emerald-500"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/components/timeline.tsx",
-                                                                                        lineNumber: 666,
+                                                                                        lineNumber: 669,
                                                                                         columnNumber: 33
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                                         children: p
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/components/timeline.tsx",
-                                                                                        lineNumber: 667,
+                                                                                        lineNumber: 670,
                                                                                         columnNumber: 33
                                                                                     }, this)
                                                                                 ]
                                                                             }, i, true, {
                                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                                lineNumber: 664,
+                                                                                lineNumber: 667,
                                                                                 columnNumber: 31
                                                                             }, this))
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/timeline.tsx",
-                                                                        lineNumber: 662,
+                                                                        lineNumber: 665,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                lineNumber: 660,
+                                                                lineNumber: 663,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 638,
+                                                        lineNumber: 641,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/timeline.tsx",
-                                                lineNumber: 636,
+                                                lineNumber: 639,
                                                 columnNumber: 21
                                             }, this),
                                             selectedItem.content.targetsAndMissions && selectedItem.content.targetsAndMissions.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -977,7 +980,7 @@ function Timeline() {
                                                         children: "Mục tiêu & Nhiệm vụ"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 678,
+                                                        lineNumber: 681,
                                                         columnNumber: 25
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -986,18 +989,18 @@ function Timeline() {
                                                                 children: mission
                                                             }, i, false, {
                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                lineNumber: 681,
+                                                                lineNumber: 684,
                                                                 columnNumber: 29
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 679,
+                                                        lineNumber: 682,
                                                         columnNumber: 25
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/timeline.tsx",
-                                                lineNumber: 677,
+                                                lineNumber: 680,
                                                 columnNumber: 23
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1007,7 +1010,7 @@ function Timeline() {
                                                         children: "Sự kiện nổi bật"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 689,
+                                                        lineNumber: 692,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1017,18 +1020,18 @@ function Timeline() {
                                                                 children: event
                                                             }, index, false, {
                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                lineNumber: 692,
+                                                                lineNumber: 695,
                                                                 columnNumber: 27
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 690,
+                                                        lineNumber: 693,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/timeline.tsx",
-                                                lineNumber: 688,
+                                                lineNumber: 691,
                                                 columnNumber: 21
                                             }, this)
                                         ]
@@ -1041,14 +1044,14 @@ function Timeline() {
                                                 children: "Nghị quyết và Chủ trương sau Đại hội"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/timeline.tsx",
-                                                lineNumber: 706,
+                                                lineNumber: 709,
                                                 columnNumber: 25
                                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                 className: "text-xl font-bold text-amber-600 border-b pb-2",
                                                 children: "Nghị quyết và Chủ trương sau Đại hội IX"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/timeline.tsx",
-                                                lineNumber: 708,
+                                                lineNumber: 711,
                                                 columnNumber: 25
                                             }, this),
                                             selectedItem.contentNext.ideologicalFoundation && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1059,7 +1062,7 @@ function Timeline() {
                                                         children: "Nền tảng Tư tưởng & Mô hình Kinh tế"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 715,
+                                                        lineNumber: 718,
                                                         columnNumber: 27
                                                     }, this),
                                                     selectedItem.contentNext.ideologicalFoundation.hoChiMinhThought && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1070,7 +1073,7 @@ function Timeline() {
                                                                 children: "Tư tưởng Hồ Chí Minh:"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                lineNumber: 720,
+                                                                lineNumber: 723,
                                                                 columnNumber: 31
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1079,18 +1082,18 @@ function Timeline() {
                                                                         children: item
                                                                     }, `hcm-${i}`, false, {
                                                                         fileName: "[project]/components/timeline.tsx",
-                                                                        lineNumber: 723,
+                                                                        lineNumber: 726,
                                                                         columnNumber: 35
                                                                     }, this))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                lineNumber: 721,
+                                                                lineNumber: 724,
                                                                 columnNumber: 31
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 719,
+                                                        lineNumber: 722,
                                                         columnNumber: 29
                                                     }, this),
                                                     selectedItem.contentNext.ideologicalFoundation.economicModel && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1101,7 +1104,7 @@ function Timeline() {
                                                                 children: "Mô hình Kinh tế:"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                lineNumber: 732,
+                                                                lineNumber: 735,
                                                                 columnNumber: 31
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1110,24 +1113,24 @@ function Timeline() {
                                                                         children: item
                                                                     }, `econ-${i}`, false, {
                                                                         fileName: "[project]/components/timeline.tsx",
-                                                                        lineNumber: 735,
+                                                                        lineNumber: 738,
                                                                         columnNumber: 35
                                                                     }, this))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                lineNumber: 733,
+                                                                lineNumber: 736,
                                                                 columnNumber: 31
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 731,
+                                                        lineNumber: 734,
                                                         columnNumber: 29
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/timeline.tsx",
-                                                lineNumber: 714,
+                                                lineNumber: 717,
                                                 columnNumber: 25
                                             }, this),
                                             selectedItem.contentNext.economicOrientation && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1138,7 +1141,7 @@ function Timeline() {
                                                         children: "Định hướng phát triển toàn diện"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 745,
+                                                        lineNumber: 748,
                                                         columnNumber: 27
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1147,18 +1150,18 @@ function Timeline() {
                                                                 children: item
                                                             }, `econ-ori-${i}`, false, {
                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                lineNumber: 748,
+                                                                lineNumber: 751,
                                                                 columnNumber: 31
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 746,
+                                                        lineNumber: 749,
                                                         columnNumber: 27
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/timeline.tsx",
-                                                lineNumber: 744,
+                                                lineNumber: 747,
                                                 columnNumber: 25
                                             }, this),
                                             selectedItem.contentNext.nationalDefenseStrategy && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1169,7 +1172,7 @@ function Timeline() {
                                                         children: "Chiến lược Bảo vệ Tổ quốc"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 756,
+                                                        lineNumber: 759,
                                                         columnNumber: 27
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1180,7 +1183,7 @@ function Timeline() {
                                                                 children: "Mục tiêu:"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                lineNumber: 759,
+                                                                lineNumber: 762,
                                                                 columnNumber: 29
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1189,18 +1192,18 @@ function Timeline() {
                                                                         children: item
                                                                     }, `aim-${i}`, false, {
                                                                         fileName: "[project]/components/timeline.tsx",
-                                                                        lineNumber: 762,
+                                                                        lineNumber: 765,
                                                                         columnNumber: 33
                                                                     }, this))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                lineNumber: 760,
+                                                                lineNumber: 763,
                                                                 columnNumber: 29
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 758,
+                                                        lineNumber: 761,
                                                         columnNumber: 27
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1211,7 +1214,7 @@ function Timeline() {
                                                                 children: "Nhiệm vụ cơ bản:"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                lineNumber: 768,
+                                                                lineNumber: 771,
                                                                 columnNumber: 29
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1220,24 +1223,24 @@ function Timeline() {
                                                                         children: item
                                                                     }, `task-${i}`, false, {
                                                                         fileName: "[project]/components/timeline.tsx",
-                                                                        lineNumber: 771,
+                                                                        lineNumber: 774,
                                                                         columnNumber: 33
                                                                     }, this))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                lineNumber: 769,
+                                                                lineNumber: 772,
                                                                 columnNumber: 29
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 767,
+                                                        lineNumber: 770,
                                                         columnNumber: 27
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/timeline.tsx",
-                                                lineNumber: 755,
+                                                lineNumber: 758,
                                                 columnNumber: 25
                                             }, this),
                                             selectedItem.contentNext.postCongressResolutions?.economyAndLand && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1248,7 +1251,7 @@ function Timeline() {
                                                         children: "Chỉ đạo của Trung ương Khóa IX"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 781,
+                                                        lineNumber: 784,
                                                         columnNumber: 27
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1259,7 +1262,7 @@ function Timeline() {
                                                                 children: "Đổi mới Kinh tế & Quản lý Đất đai:"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                lineNumber: 785,
+                                                                lineNumber: 788,
                                                                 columnNumber: 29
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1268,18 +1271,18 @@ function Timeline() {
                                                                         children: item
                                                                     }, `eco-res-${i}`, false, {
                                                                         fileName: "[project]/components/timeline.tsx",
-                                                                        lineNumber: 788,
+                                                                        lineNumber: 791,
                                                                         columnNumber: 33
                                                                     }, this))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                lineNumber: 786,
+                                                                lineNumber: 789,
                                                                 columnNumber: 29
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 784,
+                                                        lineNumber: 787,
                                                         columnNumber: 27
                                                     }, this),
                                                     selectedItem.contentNext.postCongressResolutions.partyBuilding && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1290,7 +1293,7 @@ function Timeline() {
                                                                 children: "Xây dựng Đảng, Tư tưởng & Đạo đức:"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                lineNumber: 796,
+                                                                lineNumber: 799,
                                                                 columnNumber: 31
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1299,24 +1302,24 @@ function Timeline() {
                                                                         children: item
                                                                     }, `party-res-${i}`, false, {
                                                                         fileName: "[project]/components/timeline.tsx",
-                                                                        lineNumber: 799,
+                                                                        lineNumber: 802,
                                                                         columnNumber: 35
                                                                     }, this))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                lineNumber: 797,
+                                                                lineNumber: 800,
                                                                 columnNumber: 31
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 795,
+                                                        lineNumber: 798,
                                                         columnNumber: 29
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/timeline.tsx",
-                                                lineNumber: 780,
+                                                lineNumber: 783,
                                                 columnNumber: 25
                                             }, this),
                                             selectedItem.contentNext.majorLessons && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1327,7 +1330,7 @@ function Timeline() {
                                                         children: "6 Bài học kinh nghiệm lớn (10 năm Đổi mới)"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 815,
+                                                        lineNumber: 818,
                                                         columnNumber: 27
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1336,18 +1339,18 @@ function Timeline() {
                                                                 children: lesson
                                                             }, i, false, {
                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                lineNumber: 818,
+                                                                lineNumber: 821,
                                                                 columnNumber: 31
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 816,
+                                                        lineNumber: 819,
                                                         columnNumber: 27
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/timeline.tsx",
-                                                lineNumber: 814,
+                                                lineNumber: 817,
                                                 columnNumber: 25
                                             }, this),
                                             selectedItem.contentNext.postCongressResolutions?.industrializationViews && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1358,7 +1361,7 @@ function Timeline() {
                                                         children: "Quan điểm về CNH, HĐH"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 827,
+                                                        lineNumber: 830,
                                                         columnNumber: 27
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1367,18 +1370,18 @@ function Timeline() {
                                                                 children: view
                                                             }, i, false, {
                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                lineNumber: 830,
+                                                                lineNumber: 833,
                                                                 columnNumber: 31
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 828,
+                                                        lineNumber: 831,
                                                         columnNumber: 27
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/timeline.tsx",
-                                                lineNumber: 826,
+                                                lineNumber: 829,
                                                 columnNumber: 25
                                             }, this),
                                             selectedItem.contentNext.postCongressResolutions?.stateAndSystemBuilding && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1389,7 +1392,7 @@ function Timeline() {
                                                         children: "Xây dựng Nhà nước & Hệ thống Chính trị (NQ 03/1997)"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 839,
+                                                        lineNumber: 842,
                                                         columnNumber: 27
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1397,7 +1400,7 @@ function Timeline() {
                                                         children: "Hội nghị Trung ương 3 khóa VIII"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 840,
+                                                        lineNumber: 843,
                                                         columnNumber: 27
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1406,18 +1409,18 @@ function Timeline() {
                                                                 children: f
                                                             }, i, false, {
                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                lineNumber: 843,
+                                                                lineNumber: 846,
                                                                 columnNumber: 31
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 841,
+                                                        lineNumber: 844,
                                                         columnNumber: 27
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/timeline.tsx",
-                                                lineNumber: 838,
+                                                lineNumber: 841,
                                                 columnNumber: 25
                                             }, this),
                                             selectedItem.contentNext.postCongressResolutions?.partyBuilding && !selectedItem.contentNext.ideologicalFoundation && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1428,7 +1431,7 @@ function Timeline() {
                                                         children: "Xây dựng Đảng & Chống Suy thoái (NQ 10/1999)"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 852,
+                                                        lineNumber: 855,
                                                         columnNumber: 27
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1437,18 +1440,18 @@ function Timeline() {
                                                                 children: item
                                                             }, i, false, {
                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                lineNumber: 855,
+                                                                lineNumber: 858,
                                                                 columnNumber: 31
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 853,
+                                                        lineNumber: 856,
                                                         columnNumber: 27
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/timeline.tsx",
-                                                lineNumber: 851,
+                                                lineNumber: 854,
                                                 columnNumber: 25
                                             }, this),
                                             selectedItem.contentNext.postCongressResolutions?.socialAndCulturalDevelopment?.educationAndScience && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1462,7 +1465,7 @@ function Timeline() {
                                                                 children: "Giáo dục & Khoa học – Công nghệ (NQ 02/1996)"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                lineNumber: 866,
+                                                                lineNumber: 869,
                                                                 columnNumber: 29
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1471,18 +1474,18 @@ function Timeline() {
                                                                         children: f
                                                                     }, i, false, {
                                                                         fileName: "[project]/components/timeline.tsx",
-                                                                        lineNumber: 869,
+                                                                        lineNumber: 872,
                                                                         columnNumber: 33
                                                                     }, this))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                lineNumber: 867,
+                                                                lineNumber: 870,
                                                                 columnNumber: 29
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 865,
+                                                        lineNumber: 868,
                                                         columnNumber: 27
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1493,7 +1496,7 @@ function Timeline() {
                                                                 children: "Văn hóa (NQ TW5/1998)"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                lineNumber: 875,
+                                                                lineNumber: 878,
                                                                 columnNumber: 29
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1502,52 +1505,52 @@ function Timeline() {
                                                                         children: f
                                                                     }, i, false, {
                                                                         fileName: "[project]/components/timeline.tsx",
-                                                                        lineNumber: 878,
+                                                                        lineNumber: 881,
                                                                         columnNumber: 33
                                                                     }, this))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/timeline.tsx",
-                                                                lineNumber: 876,
+                                                                lineNumber: 879,
                                                                 columnNumber: 29
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/timeline.tsx",
-                                                        lineNumber: 874,
+                                                        lineNumber: 877,
                                                         columnNumber: 27
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/timeline.tsx",
-                                                lineNumber: 863,
+                                                lineNumber: 866,
                                                 columnNumber: 25
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/timeline.tsx",
-                                        lineNumber: 702,
+                                        lineNumber: 705,
                                         columnNumber: 21
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/timeline.tsx",
-                                    lineNumber: 596,
+                                    lineNumber: 599,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/timeline.tsx",
-                            lineNumber: 569,
+                            lineNumber: 572,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/timeline.tsx",
-                    lineNumber: 528,
+                    lineNumber: 531,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/timeline.tsx",
-                lineNumber: 527,
+                lineNumber: 530,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1557,18 +1560,18 @@ function Timeline() {
                     children: "HIỆN TẠI"
                 }, void 0, false, {
                     fileName: "[project]/components/timeline.tsx",
-                    lineNumber: 898,
+                    lineNumber: 901,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/timeline.tsx",
-                lineNumber: 897,
+                lineNumber: 900,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/timeline.tsx",
-        lineNumber: 454,
+        lineNumber: 457,
         columnNumber: 5
     }, this);
 }
@@ -2604,7 +2607,7 @@ const QUESTIONS_DATA = [
             "Kinh tế thị trường hiện đại",
             "Kinh tế nhiều thành phần"
         ],
-        answer: "Kinh tế thị trường định hướng XHCN"
+        answer: 1
     },
     {
         question: "Đại hội VIII xác định chiến lược nào?",
@@ -2614,7 +2617,7 @@ const QUESTIONS_DATA = [
             "Mở cửa hội nhập",
             "Kinh tế tri thức"
         ],
-        answer: "Công nghiệp hóa – hiện đại hóa"
+        answer: 0
     },
     {
         question: "Đại hội VII xác định chiến lược nào?",
@@ -2624,7 +2627,7 @@ const QUESTIONS_DATA = [
             "Mở cửa hội nhập",
             "Kinh tế tri thức"
         ],
-        answer: "Phát triển nông nghiệp"
+        answer: 1
     },
     {
         question: "Đại hội đại biểu toàn quốc lần thứ IX của Đảng (năm 2001) đã xác định mô hình kinh tế tổng quát của Việt Nam trong thời kỳ quá độ là gì?",
@@ -2634,7 +2637,7 @@ const QUESTIONS_DATA = [
             "Kinh tế thị trường hiện đại và hội nhập quốc tế.",
             "Kinh tế hàng hóa nhiều thành phần, vận hành theo cơ chế thị trường, có sự quản lý của Nhà nước."
         ],
-        answer: "Kinh tế thị trường định hướng xã hội chủ nghĩa"
+        answer: 1
     },
     {
         question: "Hội nghị Trung ương 5 khóa IX đã đưa ra nhận thức mới quan trọng nào về thành phần kinh tế tư nhân?",
@@ -2644,7 +2647,7 @@ const QUESTIONS_DATA = [
             "Kinh tế tư nhân là một bộ phận cấu thành quan trọng của nền kinh tế quốc dân, là vấn đề chiến lược lâu dài trong phát triển kinh tế nhiều thành phần.",
             "Kinh tế tư nhân được coi là một bộ phận cấu thành quan trọng, là động lực của nền kinh tế."
         ],
-        answer: "Kinh tế tư nhân là một bộ phận cấu thành quan trọng của nền kinh tế quốc dân, là vấn đề chiến lược lâu dài trong phát triển kinh tế nhiều thành phần"
+        answer: 2
     },
     {
         question: "Đại hội X (năm 2006) của Đảng đã đưa ra một quyết định mới quan trọng nào liên quan đến đảng viên?",
@@ -2654,7 +2657,7 @@ const QUESTIONS_DATA = [
             "Yêu cầu tất cả đảng viên phải tham gia vào các hợp tác xã.",
             "Cấm đảng viên tham gia bất kỳ hoạt động kinh tế nào ngoài nhà nước."
         ],
-        answer: "Cho phép đảng viên làm kinh tế tư bản tư nhân"
+        answer: 1
     },
     {
         question: "Nghị quyết số 09-NQ/TW của Hội nghị Trung ương 4 khóa X (năm 2007) đề ra chiến lược quan trọng nào?",
@@ -2664,7 +2667,7 @@ const QUESTIONS_DATA = [
             "Chiến lược biển Việt Nam đến năm 2020.",
             "Chiến lược công nghiệp hóa, hiện đại hóa đất nước."
         ],
-        answer: "Chiến lược biển Việt Nam đến năm 2020"
+        answer: 2
     },
     {
         question: "Đại hội XI (năm 2011) đã xác định ba đột phá chiến lược nào để thực hiện Chiến lược phát triển kinh tế - xã hội 2011-2020?",
@@ -2674,7 +2677,7 @@ const QUESTIONS_DATA = [
             "Đẩy mạnh công nghiệp hóa, hiện đại hóa nông nghiệp; phát triển kinh tế biển; và xây dựng nông thôn mới.",
             "Hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa; phát triển nhanh nguồn nhân lực, nhất là nguồn nhân lực chất lượng cao; xây dựng hệ thống kết cấu hạ tầng đồng bộ."
         ],
-        answer: "Hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa; phát triển nhanh nguồn nhân lực, nhất là nguồn nhân lực chất lượng cao; xây dựng hệ thống kết cấu hạ tầng đồng bộ"
+        answer: 3
     },
     {
         question: "Hội nghị Trung ương 4 khóa XI (tháng 1/2012) đã ban hành Nghị quyết số 12-NQ/TW về vấn đề gì được coi là 'cấp bách'?",
@@ -2684,7 +2687,7 @@ const QUESTIONS_DATA = [
             "Một số vấn đề cấp bách về giải quyết nợ xấu và ổn định hệ thống ngân hàng.",
             "Một số vấn đề cấp bách về xây dựng kết cấu hạ tầng đồng bộ."
         ],
-        answer: "Một số vấn đề cấp bách về xây dựng Đảng trong tình hình hiện nay"
+        answer: 1
     },
     {
         question: "Chủ đề của Đại hội XII (năm 2016) nhấn mạnh đến yêu cầu nào đối với công cuộc đổi mới?",
@@ -2694,7 +2697,7 @@ const QUESTIONS_DATA = [
             "Tập trung đổi mới kinh tế, tạm gác đổi mới chính trị.",
             "Tiếp tục đẩy mạnh công cuộc đổi mới một cách toàn diện."
         ],
-        answer: "Đẩy mạnh toàn diện, đồng bộ công cuộc đổi mới"
+        answer: 0
     },
     {
         question: "Nghị quyết số 10-NQ/TW của Hội nghị Trung ương 5 khóa XII đã có bước đột phá gì trong nhận thức về vai trò của kinh tế tư nhân?",
@@ -2704,7 +2707,7 @@ const QUESTIONS_DATA = [
             "Xác định kinh tế tư nhân là một động lực quan trọng của nền kinh tế thị trường định hướng xã hội chủ nghĩa.",
             "Chủ trương từng bước quốc hữu hóa các doanh nghiệp tư nhân lớn."
         ],
-        answer: "Xác định kinh tế tư nhân là một động lực quan trọng của nền kinh tế thị trường định hướng xã hội chủ nghĩa"
+        answer: 2
     },
     {
         question: "Nghị quyết số 04-NQ/TW của Hội nghị Trung ương 4 khóa XII (năm 2016) tập trung vào vấn đề gì trong công tác xây dựng Đảng?",
@@ -2714,7 +2717,7 @@ const QUESTIONS_DATA = [
             "Đổi mới phương thức lãnh đạo của Đảng đối với hệ thống chính trị.",
             "Tăng cường công tác dân vận trong tình hình mới."
         ],
-        answer: "Ngăn chặn, đẩy lùi sự suy thoái về tư tưởng chính trị, đạo đức, lối sống, những biểu hiện “tự diễn biến”, “tự chuyển hóa” trong nội bộ"
+        answer: 0
     },
     {
         question: "Đại hội XIII của Đảng (năm 2021) đã đặt ra mục tiêu cụ thể đến năm 2030 là gì?",
@@ -2724,7 +2727,7 @@ const QUESTIONS_DATA = [
             "Cơ bản trở thành nước công nghiệp theo hướng hiện đại.",
             "Là nước đang phát triển, có công nghiệp theo hướng hiện đại, vượt qua mức thu nhập trung bình thấp."
         ],
-        answer: "Là nước đang phát triển, có công nghiệp hiện đại, thu nhập trung bình cao"
+        answer: 1
     },
     {
         question: "Một trong sáu nhiệm vụ trọng tâm được Đại hội XIII xác định, liên quan đến việc kiểm soát đại dịch và phục hồi kinh tế là gì?",
@@ -2734,7 +2737,7 @@ const QUESTIONS_DATA = [
             "Tập trung kiểm soát đại dịch COVID-19, tiêm chủng đại trà, phục hồi và phát triển kinh tế - xã hội.",
             "Kêu gọi sự hỗ trợ hoàn toàn từ quốc tế để chống dịch và phục hồi kinh tế."
         ],
-        answer: "Tập trung kiểm soát đại dịch COVID-19, tiêm chủng đại trà, phục hồi và phát triển kinh tế - xã hội"
+        answer: 2
     },
     {
         question: "Đại hội IX (2001) đã tổng kết quá trình 15 năm đổi mới và đưa ra bài học kinh nghiệm nào về mối quan hệ giữa đổi mới kinh tế và đổi mới chính trị?",
@@ -2744,7 +2747,7 @@ const QUESTIONS_DATA = [
             "Trong quá trình đổi mới phải kết hợp chặt chẽ ngay từ đầu đổi mới kinh tế với đổi mới chính trị, lấy đổi mới kinh tế làm trọng tâm, đồng thời từng bước đổi mới hệ thống chính trị.",
             "Phải tiến hành đồng thời đổi mới kinh tế và đổi mới hệ thống chính trị, lấy đổi mới chính trị làm trọng tâm."
         ],
-        answer: "Trong quá trình đổi mới phải kết hợp chặt chẽ ngay từ đầu đổi mới kinh tế với đổi mới chính trị, lấy đổi mới kinh tế làm trọng tâm, đồng thời từng bước đổi mới hệ thống chính trị"
+        answer: 2
     },
     {
         question: "Chiến lược phát triển khoa học và công nghệ giai đoạn 2011-2020 được xác định tại Đại hội XI nhấn mạnh mục tiêu gì?",
@@ -2754,7 +2757,7 @@ const QUESTIONS_DATA = [
             "Phấn đấu đưa khoa học và công nghệ Việt Nam đạt trình độ hàng đầu thế giới ở mọi lĩnh vực.",
             "Tập trung phát triển khoa học xã hội và nhân văn, hạn chế khoa học tự nhiên và công nghệ."
         ],
-        answer: "Làm cho khoa học và công nghệ thực sự trở thành động lực then chốt của sự phát triển lực lượng sản xuất hiện đại, nâng cao năng suất, chất lượng, hiệu quả và sức cạnh tranh của nền kinh tế"
+        answer: 0
     },
     {
         question: "Nội dung nào sau đây phản ánh đúng một trong năm bài học kinh nghiệm lớn được Đại hội X (2006) rút ra sau 20 năm đổi mới?",
@@ -2764,7 +2767,7 @@ const QUESTIONS_DATA = [
             "Chỉ dựa vào sức mạnh của dân tộc, không cần đến sự hợp tác quốc tế.",
             "Phát huy tối đa nội lực, đồng thời tranh thủ ngoại lực, kết hợp sức mạnh dân tộc với sức mạnh thời đại."
         ],
-        answer: "Phát huy tối đa nội lực, đồng thời tranh thủ ngoại lực, kết hợp sức mạnh dân tộc với sức mạnh thời đại"
+        answer: 3
     },
     {
         question: "Hội nghị Trung ương 6 khóa XII đã ban hành Nghị quyết nào nhằm tiếp tục hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa?",
@@ -2774,7 +2777,7 @@ const QUESTIONS_DATA = [
             "Nghị quyết về một số chủ trương, chính sách lớn nhằm tiếp tục đổi mới mô hình tăng trưởng, nâng cao chất lượng tăng trưởng, năng suất lao động, sức cạnh tranh của nền kinh tế.",
             "Nghị quyết về tiếp tục đổi mới, sắp xếp tổ chức bộ máy của hệ thống chính trị."
         ],
-        answer: "Nghị quyết về một số chủ trương, chính sách lớn nhằm tiếp tục đổi mới mô hình tăng trưởng, nâng cao chất lượng tăng trưởng, năng suất lao động, sức cạnh tranh của nền kinh tế"
+        answer: 2
     },
     {
         question: "Theo Cương lĩnh (bổ sung, phát triển năm 2011), quan hệ giữa các giai cấp, tầng lớp xã hội ở Việt Nam được xác định là gì?",
@@ -2784,7 +2787,7 @@ const QUESTIONS_DATA = [
             "Quan hệ đấu tranh giai cấp quyết liệt để loại trừ lẫn nhau.",
             "Không còn tồn tại quan hệ giai cấp, chỉ còn sự đồng thuận tuyệt đối."
         ],
-        answer: "Quan hệ hợp tác và đấu tranh trong nội bộ nhân dân, đoàn kết và hợp tác lâu dài trong sự nghiệp xây dựng và bảo vệ Tổ quốc"
+        answer: 1
     },
     {
         question: "Đại hội XII (năm 2016) đã xác định một trong sáu nhiệm vụ trọng tâm là kiên quyết, kiên trì đấu tranh bảo vệ vững chắc độc lập, chủ quyền, thống nhất và toàn vẹn lãnh thổ. Nhiệm vụ này nhấn mạnh điều gì đi kèm?",
@@ -2794,7 +2797,7 @@ const QUESTIONS_DATA = [
             "Sẵn sàng phát động chiến tranh để giải quyết mọi tranh chấp.",
             "Chấp nhận nhượng bộ về chủ quyền để đổi lấy lợi ích kinh tế."
         ],
-        answer: "Giữ vững môi trường hòa bình, ổn định để phát triển đất nước"
+        answer: 0
     },
     {
         question: "Chủ trương nào sau đây là một trong tám phương hướng cơ bản được nêu trong Cương lĩnh (bổ sung, phát triển năm 2011)?",
@@ -2804,7 +2807,7 @@ const QUESTIONS_DATA = [
             "Chỉ phát triển kinh tế nhà nước và kinh tế tập thể, loại bỏ các thành phần kinh tế khác.",
             "Xây dựng nền kinh tế thị trường định hướng xã hội chủ nghĩa."
         ],
-        answer: "Xây dựng nền kinh tế thị trường định hướng xã hội chủ nghĩa"
+        answer: 3
     },
     {
         question: "Mục tiêu tổng quát mà Đại hội VIII (1996) đề ra cho thời kỳ công nghiệp hóa, hiện đại hóa là gì?",
@@ -2814,7 +2817,7 @@ const QUESTIONS_DATA = [
             "Tập trung vào việc phát triển các ngành công nghiệp nặng một cách nhanh chóng.",
             "Xây dựng nước ta thành một nước công nghiệp có cơ sở vật chất - kỹ thuật hiện đại, cơ cấu kinh tế hợp lý, quan hệ sản xuất tiến bộ, phù hợp."
         ],
-        answer: "Xây dựng nước ta thành một nước công nghiệp có cơ sở vật chất - kỹ thuật hiện đại, cơ cấu kinh tế hợp lý, quan hệ sản xuất tiến bộ, phù hợp"
+        answer: 3
     },
     {
         question: "Trong giai đoạn 1996 - 2005, mặc dù gặp nhiều khó khăn, đặc biệt là cuộc khủng hoảng tài chính - tiền tệ khu vực (1997), Việt Nam vẫn đạt được thành tựu nổi bật nào?",
@@ -2824,7 +2827,7 @@ const QUESTIONS_DATA = [
             "Hệ thống ngân hàng sụp đổ hoàn toàn và nợ nước ngoài tăng vọt.",
             "Tốc độ tăng trưởng kinh tế vẫn đạt mức khá cao, đời sống nhân dân tiếp tục được cải thiện."
         ],
-        answer: "Tốc độ tăng trưởng kinh tế vẫn đạt mức khá cao, đời sống nhân dân tiếp tục được cải thiện"
+        answer: 3
     },
     {
         question: "Hội nghị Trung ương 7 khóa IX (tháng 3/2003) đã ban hành các nghị quyết quan trọng nào nhằm phát huy sức mạnh khối đại đoàn kết toàn dân tộc?",
@@ -2834,7 +2837,7 @@ const QUESTIONS_DATA = [
             "Nghị quyết về phát triển kinh tế tư nhân và kinh tế tập thể.",
             "Nghị quyết về chiến lược biển và quốc phòng, an ninh."
         ],
-        answer: "Nghị quyết về công tác dân tộc và công tác tôn giáo"
+        answer: 1
     },
     {
         question: "Nghị quyết 36-NQ/TW của Bộ Chính trị khóa IX (ngày 26/3/2004) đã xác định công tác đối với người Việt Nam ở nước ngoài là gì?",
@@ -2844,7 +2847,7 @@ const QUESTIONS_DATA = [
             "Là một bộ phận không thể tách rời và là một nguồn lực của cộng đồng dân tộc Việt Nam.",
             "Là một công tác chỉ nhằm mục đích vận động tài chính từ kiều bào."
         ],
-        answer: "Là một bộ phận không thể tách rời và là một nguồn lực của cộng đồng dân tộc Việt Nam"
+        answer: 2
     },
     {
         question: "Sự kiện đối ngoại quan trọng nào đã diễn ra vào cuối năm 2006, đánh dấu một bước ngoặt trong quá trình hội nhập kinh tế quốc tế của Việt Nam?",
@@ -2854,7 +2857,7 @@ const QUESTIONS_DATA = [
             "Việt Nam gia nhập Hiệp hội các quốc gia Đông Nam Á (ASEAN).",
             "Việt Nam đăng cai tổ chức Hội nghị cấp cao APEC lần đầu tiên."
         ],
-        answer: "Việt Nam trở thành thành viên chính thức của Tổ chức Thương mại Thế giới (WTO)"
+        answer: 0
     },
     {
         question: "Đại hội XIII của Đảng đã xác định mối quan hệ giữa 'phát triển nhanh' và 'phát triển bền vững' như thế nào?",
@@ -2864,7 +2867,7 @@ const QUESTIONS_DATA = [
             "Phát triển nhanh và bền vững, trong đó phát triển bền vững là nền tảng.",
             "Đây là hai mục tiêu mâu thuẫn, không thể đồng thời thực hiện."
         ],
-        answer: "Phát triển nhanh và bền vững, trong đó phát triển bền vững là nền tảng"
+        answer: 2
     },
     {
         question: "Hội nghị Trung ương 7 khóa XII đã ban hành Nghị quyết về cải cách chính sách nào có ảnh hưởng sâu rộng đến đội ngũ cán bộ, công chức, viên chức và người lao động?",
@@ -2874,7 +2877,7 @@ const QUESTIONS_DATA = [
             "Cải cách chính sách đất đai và nhà ở.",
             "Cải cách giáo dục đại học và dạy nghề."
         ],
-        answer: "Cải cách chính sách bảo hiểm xã hội và cải cách chính sách tiền lương"
+        answer: 1
     }
 ];
 }),
@@ -2939,7 +2942,7 @@ function GamePlay({ roomCode, playerId }) {
     const [questions, setQuestions] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(shuffle(__TURBOPACK__imported__module__$5b$project$5d2f$data$2f$question$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["QUESTIONS_DATA"]));
     const [currentIdx, setCurrentIdx] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(0);
     const [selectedOption, setSelectedOption] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
-    const [timeLeft, setTimeLeft] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(15);
+    const [timeLeft, setTimeLeft] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(18);
     const CARD_COUNT = 3;
     const MAX_FLIP = 2;
     const [currentSet, setCurrentSet] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])([]);
@@ -2996,8 +2999,12 @@ function GamePlay({ roomCode, playerId }) {
     ]);
     const handleAnswer = (option)=>{
         if (selectedOption) return;
+        // Chỉnh sửa logic kiểm tra đáp án:
+        // Kiểm tra xem option được chọn (option: string) có trùng với đáp án đúng trong mảng options không,
+        // sử dụng index (currentQuestion.answer: number) để lấy đáp án đúng.
+        const correctOption = currentQuestion.options[currentQuestion.answer];
         setSelectedOption(option);
-        const isCorrect = option === currentQuestion.answer;
+        const isCorrect = option === correctOption; // Logic kiểm tra vẫn dùng string
         if (!isCorrect) {
             setTimeout(nextQuestion, 1200);
             return;
@@ -3104,12 +3111,12 @@ function GamePlay({ roomCode, playerId }) {
                 children: "Đang tải câu hỏi..."
             }, void 0, false, {
                 fileName: "[project]/components/game-play.tsx",
-                lineNumber: 260,
+                lineNumber: 264,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/game-play.tsx",
-            lineNumber: 259,
+            lineNumber: 263,
             columnNumber: 7
         }, this);
     }
@@ -3126,7 +3133,7 @@ function GamePlay({ roomCode, playerId }) {
                 className: "jsx-2af4dab3cd9b1dd2"
             }, void 0, false, {
                 fileName: "[project]/components/game-play.tsx",
-                lineNumber: 270,
+                lineNumber: 274,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3142,12 +3149,12 @@ function GamePlay({ roomCode, playerId }) {
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/game-play.tsx",
-                            lineNumber: 273,
+                            lineNumber: 277,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/game-play.tsx",
-                        lineNumber: 272,
+                        lineNumber: 276,
                         columnNumber: 9
                     }, this),
                     phase === "question" && currentQuestion && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3158,7 +3165,7 @@ function GamePlay({ roomCode, playerId }) {
                                 children: currentQuestion.question
                             }, void 0, false, {
                                 fileName: "[project]/components/game-play.tsx",
-                                lineNumber: 279,
+                                lineNumber: 283,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3170,19 +3177,21 @@ function GamePlay({ roomCode, playerId }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/game-play.tsx",
-                                lineNumber: 280,
+                                lineNumber: 284,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "jsx-2af4dab3cd9b1dd2" + " " + "grid grid-cols-2 gap-4",
-                                children: currentQuestion.options.map((opt)=>{
-                                    const isCorrect = opt === currentQuestion.answer;
+                                children: currentQuestion.options.map((opt, index)=>{
+                                    const isCorrect = index === currentQuestion.answer;
+                                    const isSelected = opt === selectedOption;
                                     let style = "bg-gray-100 hover:bg-gray-200";
                                     if (selectedOption) {
-                                        if (opt === selectedOption) {
-                                            style = isCorrect ? "bg-green-500 text-white" : "bg-red-500 text-white";
-                                        } else if (isCorrect) {
+                                        // Nếu là đáp án đúng -> luôn hiển thị màu xanh
+                                        if (isCorrect) {
                                             style = "bg-green-500 text-white";
+                                        } else if (isSelected) {
+                                            style = "bg-red-500 text-white";
                                         }
                                     }
                                     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3192,19 +3201,19 @@ function GamePlay({ roomCode, playerId }) {
                                         children: opt
                                     }, opt, false, {
                                         fileName: "[project]/components/game-play.tsx",
-                                        lineNumber: 296,
+                                        lineNumber: 305,
                                         columnNumber: 19
                                     }, this);
                                 })
                             }, void 0, false, {
                                 fileName: "[project]/components/game-play.tsx",
-                                lineNumber: 282,
+                                lineNumber: 286,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/game-play.tsx",
-                        lineNumber: 278,
+                        lineNumber: 282,
                         columnNumber: 11
                     }, this),
                     phase === "popup" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3217,7 +3226,7 @@ function GamePlay({ roomCode, playerId }) {
                                     children: "🎉 Trả lời đúng!"
                                 }, void 0, false, {
                                     fileName: "[project]/components/game-play.tsx",
-                                    lineNumber: 314,
+                                    lineNumber: 323,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3225,7 +3234,7 @@ function GamePlay({ roomCode, playerId }) {
                                     children: cardFlipsLeft === MAX_FLIP ? "Bạn có muốn bóc bài để nhận thưởng thêm?" : `Bạn còn ${cardFlipsLeft} lượt bóc. Tiếp tục?`
                                 }, void 0, false, {
                                     fileName: "[project]/components/game-play.tsx",
-                                    lineNumber: 315,
+                                    lineNumber: 324,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3237,7 +3246,7 @@ function GamePlay({ roomCode, playerId }) {
                                             children: "🎴 Bóc bài"
                                         }, void 0, false, {
                                             fileName: "[project]/components/game-play.tsx",
-                                            lineNumber: 321,
+                                            lineNumber: 330,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3246,24 +3255,24 @@ function GamePlay({ roomCode, playerId }) {
                                             children: "➡️ Câu kế tiếp"
                                         }, void 0, false, {
                                             fileName: "[project]/components/game-play.tsx",
-                                            lineNumber: 327,
+                                            lineNumber: 336,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/game-play.tsx",
-                                    lineNumber: 320,
+                                    lineNumber: 329,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/game-play.tsx",
-                            lineNumber: 313,
+                            lineNumber: 322,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/game-play.tsx",
-                        lineNumber: 312,
+                        lineNumber: 321,
                         columnNumber: 11
                     }, this),
                     phase === "card" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3274,7 +3283,7 @@ function GamePlay({ roomCode, playerId }) {
                                 children: "🎴 Chọn bài để bóc"
                             }, void 0, false, {
                                 fileName: "[project]/components/game-play.tsx",
-                                lineNumber: 341,
+                                lineNumber: 350,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3285,12 +3294,12 @@ function GamePlay({ roomCode, playerId }) {
                                         onClick: ()=>handleCardClick(idx)
                                     }, idx, false, {
                                         fileName: "[project]/components/game-play.tsx",
-                                        lineNumber: 345,
+                                        lineNumber: 354,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/game-play.tsx",
-                                lineNumber: 343,
+                                lineNumber: 352,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3301,13 +3310,13 @@ function GamePlay({ roomCode, playerId }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/game-play.tsx",
-                                lineNumber: 354,
+                                lineNumber: 363,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/game-play.tsx",
-                        lineNumber: 340,
+                        lineNumber: 349,
                         columnNumber: 11
                     }, this),
                     phase === "selectPlayer" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3324,7 +3333,7 @@ function GamePlay({ roomCode, playerId }) {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/game-play.tsx",
-                                    lineNumber: 362,
+                                    lineNumber: 371,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3332,7 +3341,7 @@ function GamePlay({ roomCode, playerId }) {
                                     children: "Chọn người chơi để thực hiện:"
                                 }, void 0, false, {
                                     fileName: "[project]/components/game-play.tsx",
-                                    lineNumber: 367,
+                                    lineNumber: 376,
                                     columnNumber: 15
                                 }, this),
                                 otherPlayers.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3343,7 +3352,7 @@ function GamePlay({ roomCode, playerId }) {
                                             children: "Không có người chơi khác trong phòng"
                                         }, void 0, false, {
                                             fileName: "[project]/components/game-play.tsx",
-                                            lineNumber: 371,
+                                            lineNumber: 380,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3363,13 +3372,13 @@ function GamePlay({ roomCode, playerId }) {
                                             children: "Tiếp tục"
                                         }, void 0, false, {
                                             fileName: "[project]/components/game-play.tsx",
-                                            lineNumber: 372,
+                                            lineNumber: 381,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/game-play.tsx",
-                                    lineNumber: 370,
+                                    lineNumber: 379,
                                     columnNumber: 17
                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "jsx-2af4dab3cd9b1dd2" + " " + "space-y-3",
@@ -3382,7 +3391,7 @@ function GamePlay({ roomCode, playerId }) {
                                                     children: player.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/game-play.tsx",
-                                                    lineNumber: 398,
+                                                    lineNumber: 407,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3393,35 +3402,35 @@ function GamePlay({ roomCode, playerId }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/game-play.tsx",
-                                                    lineNumber: 399,
+                                                    lineNumber: 408,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, player.id, true, {
                                             fileName: "[project]/components/game-play.tsx",
-                                            lineNumber: 393,
+                                            lineNumber: 402,
                                             columnNumber: 21
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/game-play.tsx",
-                                    lineNumber: 391,
+                                    lineNumber: 400,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/game-play.tsx",
-                            lineNumber: 361,
+                            lineNumber: 370,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/game-play.tsx",
-                        lineNumber: 360,
+                        lineNumber: 369,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/game-play.tsx",
-                lineNumber: 271,
+                lineNumber: 275,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$styled$2d$jsx$40$5$2e$1$2e$6_react$40$19$2e$2$2e$0$2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -3431,7 +3440,7 @@ function GamePlay({ roomCode, playerId }) {
         ]
     }, void 0, true, {
         fileName: "[project]/components/game-play.tsx",
-        lineNumber: 269,
+        lineNumber: 273,
         columnNumber: 5
     }, this);
 }
