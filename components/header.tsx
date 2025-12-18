@@ -3,8 +3,8 @@
 import { cn } from "@/lib/utils"
 
 interface HeaderProps {
-  activeTab: "home" | "game"
-  setActiveTab: (tab: "home" | "game") => void
+  activeTab: "home" | "game" | "video"
+  setActiveTab: (tab: "home" | "game" | "video") => void
 }
 
 export function Header({ activeTab, setActiveTab }: HeaderProps) {
@@ -38,6 +38,17 @@ export function Header({ activeTab, setActiveTab }: HeaderProps) {
             )}
           >
             Game
+          </button>
+          <button
+            onClick={() => window.open("https://drive.google.com/file/d/1Wooav4lOTHugq5K8QcHC4kbPKNTs9twJ/view?usp=sharing", "_blank")}
+            className={cn(
+              "px-4 py-2 rounded-lg font-medium transition-colors hover:cursor-pointer",
+              activeTab === "video"
+                ? "bg-primary text-primary-foreground"
+                : "text-muted-foreground hover:text-foreground hover:bg-muted",
+            )}
+          >
+            Video
           </button>
         </nav>
       </div>

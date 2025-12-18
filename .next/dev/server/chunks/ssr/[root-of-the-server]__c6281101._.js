@@ -1826,6 +1826,15 @@ function Header({ activeTab, setActiveTab }) {
                             fileName: "[project]/components/header.tsx",
                             lineNumber: 31,
                             columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            onClick: ()=>window.open("https://drive.google.com/file/d/1Wooav4lOTHugq5K8QcHC4kbPKNTs9twJ/view?usp=sharing", "_blank"),
+                            className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("px-4 py-2 rounded-lg font-medium transition-colors hover:cursor-pointer", activeTab === "video" ? "bg-primary text-primary-foreground" : "text-muted-foreground hover:text-foreground hover:bg-muted"),
+                            children: "Video"
+                        }, void 0, false, {
+                            fileName: "[project]/components/header.tsx",
+                            lineNumber: 42,
+                            columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
@@ -4601,7 +4610,7 @@ function Game() {
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "text-sm text-muted-foreground",
-                                                children: "15 giây cho mỗi câu hỏi"
+                                                children: "18 giây cho mỗi câu hỏi"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/game.tsx",
                                                 lineNumber: 328,
@@ -4639,7 +4648,7 @@ function Game() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-sm",
-                                        children: "Trả lời các câu hỏi về lịch sử Việt Nam từ Đại hội VIII đến nay"
+                                        children: "Trả lời các câu hỏi về lịch sử, sự kiện xuất hiện từ Đại hội VIII đến nay"
                                     }, void 0, false, {
                                         fileName: "[project]/components/game.tsx",
                                         lineNumber: 338,
