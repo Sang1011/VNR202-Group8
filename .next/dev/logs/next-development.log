@@ -1,7 +1,7 @@
-[00:00:05.024] Server  LOG      ✓ Ready in 3.6s
-[00:01:40.110] Server  LOG      ○ Compiling / ...
-[00:01:48.772] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:49.264] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:17.875] Server  LOG      ✓ Ready in 11.2s
+[00:01:02.327] Server  LOG      ○ Compiling / ...
+[00:01:21.432] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:22.027] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -40,9 +40,8 @@ It can also happen if the client has a browser extension installed which messes 
                         <html lang="vi" className="source_san...">
                           <body
                             className="font-sans antialiased"
--                           __processed_cdcf5521-631f-43ff-979a-3bd2879f279c__="true"
+-                           __processed_c0b6e5cd-610f-4137-b1ae-7e55eb36fe38__="true"
 -                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
--                           cz-shortcut-listen="true"
                           >
                             ...
                               <SegmentViewNode type="page" pagePath="page.tsx">
@@ -63,7 +62,13 @@ It can also happen if the client has a browser extension installed which messes 
                                               className="flex items-center gap-2"
 -                                             bis_skin_checked="1"
                                             >
-                                            ...
+                                            <nav className="flex items...">
+                                              <button>
+                                              <button>
+                                              <div
+                                                className="relative ml-2"
+-                                               bis_skin_checked="1"
+                                              >
                                       <main className="container ...">
                                         <Home>
                                           <div
@@ -310,12 +315,23 @@ It can also happen if the client has a browser extension installed which messes 
                             ...
                   ...
 
-[00:01:49.363] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:01:49.363] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:01:49.363] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765944877353}
-[00:02:06.676] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:08.875] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:02:08.875] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:02:08.875] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765944896301}
-[00:05:27.976] Browser LOG     Hết câu hỏi, shuffle lại...
-[00:07:55.851] Server  LOG      ✓ Compiled in 354ms
+[00:01:22.149] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:22.149] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:01:22.149] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765952333524}
+[00:04:09.269] Server  LOG      ✓ Compiled in 394ms
+[00:20:10.635] Server  LOG      ✓ Compiled in 349ms
+[00:20:13.141] Server  LOG      ✓ Compiled in 615ms
+[00:25:08.409] Server  LOG      ✓ Compiled in 342ms
+[00:27:27.195] Server  LOG      ✓ Compiled in 166ms
+[00:27:39.751] Server  LOG      ✓ Compiled in 160ms
+[00:32:02.781] Server  LOG      ✓ Compiled in 258ms
+[00:33:28.474] Server  LOG      ✓ Compiled in 277ms
+[00:35:39.220] Server  LOG      ✓ Compiled in 273ms
+[00:36:21.022] Server  LOG      ✓ Compiled in 801ms
+[00:36:52.164] Server  LOG      ✓ Compiled in 364ms
+[00:38:49.055] Server  LOG      ✓ Compiled in 216ms
+[00:41:25.072] Server  LOG      ✓ Compiled in 237ms
+[00:41:50.857] Server  LOG      ✓ Compiled in 219ms
+[00:42:22.023] Server  LOG      ✓ Compiled in 504ms
+[00:43:18.330] Server  LOG      ✓ Compiled in 643ms
+[00:44:25.359] Server  LOG      ✓ Compiled in 2.3s

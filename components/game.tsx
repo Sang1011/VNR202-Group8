@@ -325,7 +325,7 @@ export function Game() {
             <Clock className="h-5 w-5 shrink-0 text-primary" />
             <div>
               <p className="font-medium">Thời gian</p>
-              <p className="text-sm text-muted-foreground">15 giây cho mỗi câu hỏi</p>
+              <p className="text-sm text-muted-foreground">18 giây cho mỗi câu hỏi</p>
               <p className="text-sm text-muted-foreground">
                 Dự kiến trò chơi sẽ diễn ra trong 8 phút, trò chơi sẽ kết thúc khi admin đóng phòng
               </p>
@@ -335,7 +335,7 @@ export function Game() {
           {/* Nội dung trả lời */}
           <div className="flex gap-3">
             <CheckCircle className="h-5 w-5 shrink-0 text-emerald-500" />
-            <p className="text-sm">Trả lời các câu hỏi về lịch sử Việt Nam từ Đại hội VIII đến nay</p>
+            <p className="text-sm">Trả lời các câu hỏi về lịch sử, sự kiện xuất hiện từ Đại hội VIII đến nay</p>
           </div>
 
           {/* Cơ chế bốc bài */}
